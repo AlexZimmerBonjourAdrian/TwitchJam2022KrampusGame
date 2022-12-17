@@ -1,0 +1,358 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 16255 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker33
+-projectPath
+E:/TwitchJam2022KrampusGame/KrampusGameJam2022
+-logFile
+Logs/AssetImportWorker33.log
+-srvPort
+54588
+Successfully changed project path to: E:/TwitchJam2022KrampusGame/KrampusGameJam2022
+E:/TwitchJam2022KrampusGame/KrampusGameJam2022
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 274.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path E:/Unity/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/TwitchJam2022KrampusGame/KrampusGameJam2022/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1ba1)
+    Vendor:   NVIDIA
+    VRAM:     8074 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'E:/Unity/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008653 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 388.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1769ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1382ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (932ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (389ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012043 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3697ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (3126ms)
+			LoadAssemblies (827ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (618ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (267ms)
+			SetupLoadedEditorAssemblies (1263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (825ms)
+				ProcessInitializeOnLoadMethodAttributes (217ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.40 seconds
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5291 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (111.0 KB). Loaded Objects now: 5764.
+Memory consumption went from 200.4 MB to 200.3 MB.
+Total: 44.719600 ms (FindLiveObjects: 0.802700 ms CreateObjectMapping: 0.692200 ms MarkObjects: 42.716900 ms  DeleteObjects: 0.506400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175797.609793 seconds.
+  path: Assets/JamGame/3dAssets/Sacritober_HugoDG/Sacritober_HugoDG
+  artifactKey: Guid(fd3fbef49496c104da94653972c591ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/Sacritober_HugoDG/Sacritober_HugoDG using Guid(fd3fbef49496c104da94653972c591ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff0ee5f84857d87a819187bc14aba0f') in 0.059036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 259.508767 seconds.
+  path: Assets/JamGame/3dAssets/krampus
+  artifactKey: Guid(3595a3ad6636cee44bf9d940e42275fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/krampus using Guid(3595a3ad6636cee44bf9d940e42275fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a48b5623e4fce7d5e5208db9eaf67b') in 0.002270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.054844 seconds.
+  path: Assets/JamGame/3dAssets/krampus/source
+  artifactKey: Guid(8b8c32a0e20ee1341a2ae0f71415c933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/krampus/source using Guid(8b8c32a0e20ee1341a2ae0f71415c933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c176330b311d1cbc8e811672e483d58b') in 0.002283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.041042 seconds.
+  path: Assets/JamGame/3dAssets/krampus/source/krampus.zip
+  artifactKey: Guid(2a54bc091cbee3e408ef9cd366f42234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/krampus/source/krampus.zip using Guid(2a54bc091cbee3e408ef9cd366f42234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bf4e32c7268d0dc450412ff9b35399') in 0.096191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.825141 seconds.
+  path: Assets/JamGame/3dAssets/krampus/source/krampus
+  artifactKey: Guid(b4a84daf85c2c28489027dec9cbead3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/krampus/source/krampus using Guid(b4a84daf85c2c28489027dec9cbead3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa26fa9132043336afaeed0bda331fe9') in 0.002366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.953006 seconds.
+  path: Assets/JamGame/3dAssets/krampus/source/krampus/krampus.obj
+  artifactKey: Guid(751e53c7c8e6f7e49a120a6e7129f40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/krampus/source/krampus/krampus.obj using Guid(751e53c7c8e6f7e49a120a6e7129f40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895b4475a9c0784e50cc4ab564a2664a') in 0.371860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.924303 seconds.
+  path: Assets/JamGame/3dAssets/krampus/source/krampus/krampus.obj
+  artifactKey: Guid(751e53c7c8e6f7e49a120a6e7129f40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/krampus/source/krampus/krampus.obj using Guid(751e53c7c8e6f7e49a120a6e7129f40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4382105a99dfb1e6201d61e6ef8a35') in 0.071133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.557800 seconds.
+  path: Assets/JamGame/Prefabs/Player
+  artifactKey: Guid(4f6ad1a5ea25515448af5f23f1e45ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Player using Guid(4f6ad1a5ea25515448af5f23f1e45ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e754e4f2f69bf1a14b2c5c2daeafc4') in 0.025925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.022420 seconds.
+  path: Assets/JamGame/Prefabs/Player/PlayerContainer.prefab
+  artifactKey: Guid(d0ef83c6928af2c4d81b46ee751620ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Player/PlayerContainer.prefab using Guid(d0ef83c6928af2c4d81b46ee751620ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
+ -> (artifact id: 'bbeba3dbcdffc0ce759b11a395d9bc00') in 0.162619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.696147 seconds.
+  path: Assets/JamGame/Prefabs/Player
+  artifactKey: Guid(4f6ad1a5ea25515448af5f23f1e45ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Player using Guid(4f6ad1a5ea25515448af5f23f1e45ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cea2103f7ffe18f5c0463016bdcbcf') in 0.001985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.036453 seconds.
+  path: Assets/JamGame/Prefabs/Player/krampus Variant.prefab
+  artifactKey: Guid(ea19f4a7819844f46b2971dfaee7e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Player/krampus Variant.prefab using Guid(ea19f4a7819844f46b2971dfaee7e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40786465b2477296b9077c34833465ce') in 0.042510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1051.685468 seconds.
+  path: Assets/VNB - Xmas Mini-Set
+  artifactKey: Guid(63f755d4568c22a4d8ac0d49d82b0144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VNB - Xmas Mini-Set using Guid(63f755d4568c22a4d8ac0d49d82b0144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2785bee74dfc76e346c06fc047f097b') in 0.003115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 241.828578 seconds.
+  path: Assets/JamGame/3dAssets/Environment/Interior/Wall-Door.fbx
+  artifactKey: Guid(dd1935c012e0e6d4c9758997539c6239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/Environment/Interior/Wall-Door.fbx using Guid(dd1935c012e0e6d4c9758997539c6239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26746505e269891aafb6bd2de4c06134') in 0.063553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.116786 seconds.
+  path: Assets/JamGame/3dAssets/Environment/Interior/Wall_Low.fbx
+  artifactKey: Guid(477031d5cbb815241801380c65aa038e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/Environment/Interior/Wall_Low.fbx using Guid(477031d5cbb815241801380c65aa038e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdba7db1cf304a11ef31b8d2abc8e8d6') in 0.061867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.405696 seconds.
+  path: Assets/JamGame/3dAssets/Environment/Interior/Wall-Door.fbx
+  artifactKey: Guid(dd1935c012e0e6d4c9758997539c6239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/Environment/Interior/Wall-Door.fbx using Guid(dd1935c012e0e6d4c9758997539c6239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b8f418383d78416b1fcc463327e8b9') in 0.044045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.097180 seconds.
+  path: Assets/VNB - Xmas Mini-Set/Models
+  artifactKey: Guid(6afd677c31c66434b98b57d874556a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VNB - Xmas Mini-Set/Models using Guid(6afd677c31c66434b98b57d874556a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2119f3a4aa7218811165372d66525f40') in 0.001954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.438938 seconds.
+  path: Assets/VNB - Xmas Mini-Set/Prefabs
+  artifactKey: Guid(7f4bb3f0848b2df4e92a98bc19d31294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VNB - Xmas Mini-Set/Prefabs using Guid(7f4bb3f0848b2df4e92a98bc19d31294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4b8d166fc50d194a80eace1d321e72') in 0.023764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 470.789785 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Sala
+  artifactKey: Guid(b4ac1a27c7842fd48ab8dc0f63ac88ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Sala using Guid(b4ac1a27c7842fd48ab8dc0f63ac88ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c346c8d45164c9c4661085fa75db4b') in 0.032198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.852099 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Officina
+  artifactKey: Guid(21812d9dbc2144748af23036fd052f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Officina using Guid(21812d9dbc2144748af23036fd052f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450af84b1c8d02ee687eba676bdedede') in 0.021555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.499826 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/ObjetosVarios
+  artifactKey: Guid(461ab687110a61f418dea9775df93bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/ObjetosVarios using Guid(461ab687110a61f418dea9775df93bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb8f871470f551a5033a9a28f4cce86') in 0.003886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.564047 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Interactive
+  artifactKey: Guid(b1adfb987f0834b4fa168f4006806d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Interactive using Guid(b1adfb987f0834b4fa168f4006806d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b72f0fc1ac6ce8742b7e8551b407fa2') in 0.014042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.621646 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Habitacion
+  artifactKey: Guid(31e234551ba58ff439df9a4d57b88cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Habitacion using Guid(31e234551ba58ff439df9a4d57b88cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927336fccfad002d6f92c3aaa6e1690e') in 0.003482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.459884 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Food
+  artifactKey: Guid(c11354ff456f6514f8e8ccfcce8fb110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Food using Guid(c11354ff456f6514f8e8ccfcce8fb110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4b620cdeb058fb8c60de5174e3b511') in 0.002195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.471023 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Consumibles
+  artifactKey: Guid(bd990f6656026f04b840571d21fa87bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Consumibles using Guid(bd990f6656026f04b840571d21fa87bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e85069cf887ea87074b95fd97f48e8a') in 0.003390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.513368 seconds.
+  path: Assets/JamGame/Prefabs/GameDevLab
+  artifactKey: Guid(6228c30c87365814096b0a30095d945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/GameDevLab using Guid(6228c30c87365814096b0a30095d945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbb9fe043980a3f608af1f4b3b5bc67') in 0.030989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.637267 seconds.
+  path: Assets/JamGame/3dAssets/Environment/Texturas
+  artifactKey: Guid(ed2f1a9a5b52d8842b27d0966cdf852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/3dAssets/Environment/Texturas using Guid(ed2f1a9a5b52d8842b27d0966cdf852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e244eec2f1ed36296568a31f458cfed') in 0.002308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 392.513273 seconds.
+  path: Assets/JamGame/Prefabs/LevelObject
+  artifactKey: Guid(587b0313338feae41b231b0c1eecb152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/LevelObject using Guid(587b0313338feae41b231b0c1eecb152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a28e22d2e596cce63a8c321257e5e9') in 0.004112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.275198 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Collections
+  artifactKey: Guid(deb09fc3eb06f724abaf8a9480125636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Collections using Guid(deb09fc3eb06f724abaf8a9480125636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9926fcfb839c8a876eb79ede061fad33') in 0.002735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.480117 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Weapons
+  artifactKey: Guid(6c74089815d1b7d4aa437518ccf7228b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Weapons using Guid(6c74089815d1b7d4aa437518ccf7228b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6130da19d515e409d9b4dcb1fab4873c') in 0.030278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 520.388231 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Baño
+  artifactKey: Guid(9302fcb1b79004c4fb170fba80ae4280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Baño using Guid(9302fcb1b79004c4fb170fba80ae4280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0d24930270eeef819c0c184dc081d8') in 0.042610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.563315 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Bullet
+  artifactKey: Guid(229922d4b20388441b3a70cd20ec7b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/Bullet using Guid(229922d4b20388441b3a70cd20ec7b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28db80343ae690fa33ed7083b8e81ff7') in 0.009517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.543823 seconds.
+  path: Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/ChildRoom
+  artifactKey: Guid(222c4a369c4fc6442962bf33fb68e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamGame/Prefabs/Environment/Mansion/Interior/Props/ChildRoom using Guid(222c4a369c4fc6442962bf33fb68e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10873c3efe6494017c335f0637359eb') in 0.003097 seconds 
