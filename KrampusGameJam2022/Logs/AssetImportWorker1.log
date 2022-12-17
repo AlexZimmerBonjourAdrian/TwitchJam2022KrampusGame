@@ -15,7 +15,7 @@ E:/TwitchJam2022KrampusGame/KrampusGameJam2022
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51693
+65431
 Successfully changed project path to: E:/TwitchJam2022KrampusGame/KrampusGameJam2022
 E:/TwitchJam2022KrampusGame/KrampusGameJam2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/TwitchJam2022KrampusGame/KrampusGameJam2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 377.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 427.40 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path E:/Unity/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,81 +63,81 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: E:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006516 seconds.
+Registered in 0.008163 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 348.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 389.77 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.453 seconds
+- Completed reload, in  1.497 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1454ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1498ms)
+		BeginReloadAssembly (174ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1122ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (174ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
+			SetupTypeCache (239ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (715ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (699ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (349ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
+				RefreshPlugins (390ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012291 seconds.
+Registered in 0.012736 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 354.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 354.55 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.353 seconds
+- Completed reload, in  2.809 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3354ms)
-		BeginReloadAssembly (292ms)
+	ReloadAssembly (2810ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (2836ms)
-			LoadAssemblies (195ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (2407ms)
+			LoadAssemblies (167ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (693ms)
+			SetupTypeCache (548ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (236ms)
-			SetupLoadedEditorAssemblies (1618ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (1485ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (355ms)
-				BeforeProcessingInitializeOnLoad (233ms)
-				ProcessInitializeOnLoadAttributes (840ms)
-				ProcessInitializeOnLoadMethodAttributes (173ms)
+				BeforeProcessingInitializeOnLoad (223ms)
+				ProcessInitializeOnLoadAttributes (749ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -145,13 +145,14 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Switching render pipeline 00000000000000000000000000000000 -> d27793bff2e20db45ab27ff5b4b44e6a
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.23 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7146 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.0 MB). Loaded Objects now: 7598.
-Memory consumption went from 291.4 MB to 289.4 MB.
-Total: 11.910000 ms (FindLiveObjects: 0.896000 ms CreateObjectMapping: 3.642800 ms MarkObjects: 6.369500 ms  DeleteObjects: 0.999900 ms)
+Unloading 7206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 7650.
+Memory consumption went from 295.6 MB to 293.6 MB.
+Total: 5.560400 ms (FindLiveObjects: 0.654400 ms CreateObjectMapping: 0.759400 ms MarkObjects: 3.426300 ms  DeleteObjects: 0.718200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,6 +161,577 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 211369.312004 seconds.
+  path: Assets/UR.asset
+  artifactKey: Guid(d27793bff2e20db45ab27ff5b4b44e6a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/UR.asset using Guid(d27793bff2e20db45ab27ff5b4b44e6a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '884b54260ab3a9eeb34f1f670d298ea9') in 0.402601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game Kit Controller/Materials/Map Part.mat
+  artifactKey: Guid(ae0a935f6d37e2845b6f226fdff357ed) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/Map Part.mat using Guid(ae0a935f6d37e2845b6f226fdff357ed) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed86ca013a8828a11f560f8dd199cc73') in 0.082544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Game Kit Controller/Materials/Laser Red Dot.mat
+  artifactKey: Guid(61c4b00e667d4fa4893053a067086217) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/Laser Red Dot.mat using Guid(61c4b00e667d4fa4893053a067086217) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24adccd80a6a3ec28535cd3ec2cabd7b') in 0.070052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Kit Controller/Materials/ammo5.mat
+  artifactKey: Guid(fd9c99dbc51c8564c8c6edb0a2af58a2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/ammo5.mat using Guid(fd9c99dbc51c8564c8c6edb0a2af58a2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17e23434bb7b41ab7b098ccf155212f8') in 0.050994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Kit Controller/Materials/Explosive Bow Material.mat
+  artifactKey: Guid(bf8b54059892c4740821bf9fbbc5cc3e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/Explosive Bow Material.mat using Guid(bf8b54059892c4740821bf9fbbc5cc3e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '036f25609799aec46ef3e06db26e7888') in 0.094509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Game Kit Controller/Materials/blackHoleParticles1.mat
+  artifactKey: Guid(03a39a6b9f40c89459f6315745a19c69) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/blackHoleParticles1.mat using Guid(03a39a6b9f40c89459f6315745a19c69) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6810f47474a8c0445dadf2b3bf6237a5') in 0.027024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Game Kit Controller/Materials/enemyScannerIcon.mat
+  artifactKey: Guid(a5096410ba5533544bd058033fa06804) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/enemyScannerIcon.mat using Guid(a5096410ba5533544bd058033fa06804) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eec1de0927db3b477011e7b534ed6226') in 0.058139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Kit Controller/Materials/ammo4.mat
+  artifactKey: Guid(dad46909b586a684097990fd28bdfb92) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/ammo4.mat using Guid(dad46909b586a684097990fd28bdfb92) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abd9ddbe47abef2848e7c14916071f68') in 0.036825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game Kit Controller/Materials/Black Text.mat
+  artifactKey: Guid(f301ee2609a385c448e9553fe9971512) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/Black Text.mat using Guid(f301ee2609a385c448e9553fe9971512) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bbdf11cc2e6b7cd574bcde20dac2da2') in 0.028487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Kit Controller/Materials/cameraMaterial.mat
+  artifactKey: Guid(97b53b6d1bc09544b903405a01e101b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/cameraMaterial.mat using Guid(97b53b6d1bc09544b903405a01e101b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58f4ecfa4a36eaad99f80e17f3b38dd3') in 0.012676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game Kit Controller/Materials/clockNeedle.mat
+  artifactKey: Guid(c72d7078dd9eab84684393c555e1657d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/clockNeedle.mat using Guid(c72d7078dd9eab84684393c555e1657d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27d64de69cedaba23269171aebd1c6bf') in 0.030061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Game Kit Controller/Materials/blackHole.mat
+  artifactKey: Guid(ce300c592655e194e9ec6da8591b22c0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/blackHole.mat using Guid(ce300c592655e194e9ec6da8591b22c0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7189eb57955f06cbdcbbc8f3b872bf2') in 0.063423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Kit Controller/Materials/bulletShell.mat
+  artifactKey: Guid(8c9e40abbdd76fa4aaa63f2077960278) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/bulletShell.mat using Guid(8c9e40abbdd76fa4aaa63f2077960278) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '142e363a74414389679568a635d52fe4') in 0.096367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Game Kit Controller/Materials/defaultMat.mat
+  artifactKey: Guid(4214e1616fddc7a49bec21d9024d3cab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/defaultMat.mat using Guid(4214e1616fddc7a49bec21d9024d3cab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a362251b38ec745ff7c6a8cdabd34fd') in 0.027906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Game Kit Controller/Materials/barrel2.mat
+  artifactKey: Guid(24a66c19fd78f9649b3890cebe51d237) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/barrel2.mat using Guid(24a66c19fd78f9649b3890cebe51d237) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '643bd98d21e8f57e4e70d128fbfdea5f') in 0.037386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Game Kit Controller/Materials/No Name.mat
+  artifactKey: Guid(6c841ff903e123e47812db6edae3da78) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/No Name.mat using Guid(6c841ff903e123e47812db6edae3da78) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31ea300c91fa6fe0448e99484b38a254') in 0.038787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game Kit Controller/Materials/healthPickUp1.mat
+  artifactKey: Guid(56160e8dbddfd8d4ba426537670c0ce3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/healthPickUp1.mat using Guid(56160e8dbddfd8d4ba426537670c0ce3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a30dce9fd89845df22178952a32efe2') in 0.037431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Kit Controller/Materials/bullet.mat
+  artifactKey: Guid(2fec67a62f8669e42bcda75768abd740) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/bullet.mat using Guid(2fec67a62f8669e42bcda75768abd740) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54eb2be1ceb177ac23144abeada9861f') in 0.045299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_CliffAlbedoSpeculare54650e06aa6253c.terrainlayer
+  artifactKey: Guid(159c8e230d71e3c4789198bf162789e2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_CliffAlbedoSpeculare54650e06aa6253c.terrainlayer using Guid(159c8e230d71e3c4789198bf162789e2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f0bfd4665b77170511973a0f8ab839a') in 0.068281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Game Kit Controller/Materials/arms.mat
+  artifactKey: Guid(789cedd661ebcb8448a04b157b0565e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/arms.mat using Guid(789cedd661ebcb8448a04b157b0565e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc73f4348fe30b29e4817ae768a6fcd1') in 0.052943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Kit Controller/Materials/chest5.mat
+  artifactKey: Guid(a22b60d906924b04a9bf0050240cfb74) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/chest5.mat using Guid(a22b60d906924b04a9bf0050240cfb74) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10bf9ce74e626e73da414be90a5c426e') in 0.013140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassHillAlbedo3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(2f031a4a2d246ff4184a45c01f570bf4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassHillAlbedo3d3aba195e4d26ee.terrainlayer using Guid(2f031a4a2d246ff4184a45c01f570bf4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3004fde4ecedf0760e48d360af561815') in 0.048955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game Kit Controller/Materials/doorTile.mat
+  artifactKey: Guid(ecfeb83b15f5b96418c15402f088dd99) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/doorTile.mat using Guid(ecfeb83b15f5b96418c15402f088dd99) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b99142d18f0c192ff1c207438bb7b0ae') in 0.067110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Game Kit Controller/Materials/barrel1.mat
+  artifactKey: Guid(3630cd10fe7220446bbcf17a644c47fc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/barrel1.mat using Guid(3630cd10fe7220446bbcf17a644c47fc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00e0edf4767a0dde5bdfe7819776287e') in 0.039104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Game Kit Controller/Materials/ammo3.mat
+  artifactKey: Guid(94e880814f9457348a74466eeca90232) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/ammo3.mat using Guid(94e880814f9457348a74466eeca90232) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8751fb3312375234e5fbb65fe7e63225') in 0.053143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_CliffAlbedoSpecular3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(ff0b3c255414cc8479d566f5ee645bff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_CliffAlbedoSpecular3d3aba195e4d26ee.terrainlayer using Guid(ff0b3c255414cc8479d566f5ee645bff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05ba038d224b80a99ebfd7b87a8d216b') in 0.029449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Game Kit Controller/Materials/inventoyCameraTexture.mat
+  artifactKey: Guid(2fec6329a796ac545a308997041bedb4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/inventoyCameraTexture.mat using Guid(2fec6329a796ac545a308997041bedb4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '716bd40756ddfe8f8820a7acda7fb620') in 0.036018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Game Kit Controller/Materials/Beer Material.mat
+  artifactKey: Guid(620b6ee85fc27d74fb020c26c7aff38a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/Beer Material.mat using Guid(620b6ee85fc27d74fb020c26c7aff38a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8869de943baf8c8c62550e9ebd706326') in 0.042776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_SandAlbedo3ec942c0ca31c357.terrainlayer
+  artifactKey: Guid(919435de3adfc2e4994d003b06df7117) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_SandAlbedo3ec942c0ca31c357.terrainlayer using Guid(919435de3adfc2e4994d003b06df7117) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64aa4a35ee229f9b89dbf27477e5b934') in 0.043889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassRockyAlbedo1dc7420b2ece7392.terrainlayer
+  artifactKey: Guid(6dece715fdea2794bb0d6686f2229eba) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassRockyAlbedo1dc7420b2ece7392.terrainlayer using Guid(6dece715fdea2794bb0d6686f2229eba) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4ed5aaf840ea8ef6bf949bf03b0955e') in 0.054952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Game Kit Controller/Materials/jumpPlatform.mat
+  artifactKey: Guid(3ac2e8165a4732749a8d57ddd0bc3143) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/jumpPlatform.mat using Guid(3ac2e8165a4732749a8d57ddd0bc3143) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97ecca0d24dc7961695b24d9e943d1b6') in 0.012262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game Kit Controller/Materials/Material.001.mat
+  artifactKey: Guid(5157e6511ebd365498139d2569f1978d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/Material.001.mat using Guid(5157e6511ebd365498139d2569f1978d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd14445dfdd1f0fd048b9f0768e3f686') in 0.027075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Game Kit Controller/Materials/earth.mat
+  artifactKey: Guid(c79926e0b94601343b221edf7201c6c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/earth.mat using Guid(c79926e0b94601343b221edf7201c6c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd392b4c06919cffd84a8a669c37fa76e') in 0.017968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Game Kit Controller/Materials/ParticleFlames.mat
+  artifactKey: Guid(3bfa2f095c911d649bf4cb92a55ac974) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/ParticleFlames.mat using Guid(3bfa2f095c911d649bf4cb92a55ac974) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6050176c814e7b0afd00fb00458de75') in 0.075600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/UR_Renderer.asset
+  artifactKey: Guid(2fe5f2c246ccc7c4c9be704bc77aecc7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/UR_Renderer.asset using Guid(2fe5f2c246ccc7c4c9be704bc77aecc7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e1b83792b0e128da0b8240a9903a091') in 0.041848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game Kit Controller/Materials/energyPickUp1.mat
+  artifactKey: Guid(6b49b78cf80c04640a383d5ad6de03ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/energyPickUp1.mat using Guid(6b49b78cf80c04640a383d5ad6de03ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a33e087d8198be564abab44dc6328d4') in 0.010262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game Kit Controller/Materials/Gravity Trigger On.mat
+  artifactKey: Guid(4a9bb53cbf24c3144b0016344685ca3c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/Gravity Trigger On.mat using Guid(4a9bb53cbf24c3144b0016344685ca3c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2366b5c67e77096a2f93849e676dab71') in 0.030550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Kit Controller/Materials/metal.mat
+  artifactKey: Guid(beb2c9a258b6f75448d345bf8cf13cdb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/metal.mat using Guid(beb2c9a258b6f75448d345bf8cf13cdb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5877c26d8d6acf884a9e81f3292aa379') in 0.014215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Game Kit Controller/Materials/chest4.mat
+  artifactKey: Guid(200258a76fa506246845d741569b827f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/chest4.mat using Guid(200258a76fa506246845d741569b827f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2174734de4d7ba5f5b6373ac67ae1707') in 0.037323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Game Kit Controller/Materials/explosion.mat
+  artifactKey: Guid(dbacd6e1e1077d24f8973ffcf7f0c273) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/explosion.mat using Guid(dbacd6e1e1077d24f8973ffcf7f0c273) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1edcf3fb5397b49785031694c466a54') in 0.054796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_StoneAlbedo3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(e6f84a9e2ec1bff43a3d4d8ed84774ac) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_StoneAlbedo3d3aba195e4d26ee.terrainlayer using Guid(e6f84a9e2ec1bff43a3d4d8ed84774ac) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba61ec05b27431b777e849bbe6874c1a') in 0.094737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Kit Controller/Materials/Poisonous Bow Material.mat
+  artifactKey: Guid(faf4b6b1eaf762a42b1a116f67219af1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/Poisonous Bow Material.mat using Guid(faf4b6b1eaf762a42b1a116f67219af1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4dbbb308bace5f9e64147c3106d9773e') in 0.023032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Game Kit Controller/Materials/turret3.mat
+  artifactKey: Guid(d77017c31d303e4408e6dbaeeb87fe16) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/turret3.mat using Guid(d77017c31d303e4408e6dbaeeb87fe16) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1073f0fc33c205a1a7ea9a885716ed5') in 0.024975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game Kit Controller/Presets/GKC TagManager.preset
+  artifactKey: Guid(d2bd2388969dda545ad099bc45418e77) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Presets/GKC TagManager.preset using Guid(d2bd2388969dda545ad099bc45418e77) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d61bbea5920a1cb701aeb4ac604634b') in 0.074691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Game Kit Controller/Materials/Shield 1.mat
+  artifactKey: Guid(dbad321dd6b3f1445a5d8578370866bb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/Shield 1.mat using Guid(dbad321dd6b3f1445a5d8578370866bb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4af2c64ff567f0d48c3f4b658cb87d6d') in 0.042013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Game Kit Controller/Materials/saturn.mat
+  artifactKey: Guid(874cc35ed4453424aa226c2d25a4588b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Materials/saturn.mat using Guid(874cc35ed4453424aa226c2d25a4588b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '869f89fd5280e18a3d88b8bd589a7511') in 0.043688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Game Kit Controller/Scenes/Grab Objects Demo.unity
+  artifactKey: Guid(22b869c4f1f485342bfea7d0329b7785) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Scenes/Grab Objects Demo.unity using Guid(22b869c4f1f485342bfea7d0329b7785) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Game Kit Controller/Scenes/Grab Objects Demo.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/Game Kit Controller/Scenes/Grab Objects Demo.unity'
+	Deserialize:            33.977 ms
+	Integration:            5692.627 ms
+	Integration of assets:  0.050 ms
+	Thread Wait Time:       -0.019 ms
+	Total Operation Time:   5726.636 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48985529547f48c61ddcf94dc99c11f0') in 144.754365 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010066 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.344 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2345ms)
+		BeginReloadAssembly (349ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1840ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (548ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (907ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (568ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Switching render pipeline 00000000000000000000000000000000 -> d27793bff2e20db45ab27ff5b4b44e6a
+Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (2.0 MB). Loaded Objects now: 7661.
+Memory consumption went from 302.4 MB to 300.4 MB.
+Total: 8.315800 ms (FindLiveObjects: 0.849700 ms CreateObjectMapping: 0.840600 ms MarkObjects: 5.040800 ms  DeleteObjects: 1.582000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.957651 seconds.
+  path: Assets/Game Kit Controller/Scenes/Mansion Demo (Top Down).unity
+  artifactKey: Guid(45cfff0989c52fb49b8df6a95d57bcc5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Scenes/Mansion Demo (Top Down).unity using Guid(45cfff0989c52fb49b8df6a95d57bcc5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Game Kit Controller/Scenes/Mansion Demo (Top Down).unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/Game Kit Controller/Scenes/Mansion Demo (Top Down).unity'
+	Deserialize:            547.372 ms
+	Integration:            44810.855 ms
+	Integration of assets:  4.291 ms
+	Thread Wait Time:       -1.285 ms
+	Total Operation Time:   45361.230 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b350a6d54bfd3b72dc9bea8b5710bb8c') in 559.958963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001284 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassRockyAlbedo797b68a14e35abeb.terrainlayer
+  artifactKey: Guid(44dd27ae1eb4a29489b5bfc9c0d41874) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassRockyAlbedo797b68a14e35abeb.terrainlayer using Guid(44dd27ae1eb4a29489b5bfc9c0d41874) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a9186d8cbd8f12c2914d900ea799fc2') in 11.425837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Game Kit Controller/Scenes/Oxygen-Free Floating Mode-Zero Gravity.unity
+  artifactKey: Guid(5e3beb1bc4109724b9430daf7f2aacae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Game Kit Controller/Scenes/Oxygen-Free Floating Mode-Zero Gravity.unity using Guid(5e3beb1bc4109724b9430daf7f2aacae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Game Kit Controller/Scenes/Oxygen-Free Floating Mode-Zero Gravity.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/Game Kit Controller/Scenes/Oxygen-Free Floating Mode-Zero Gravity.unity'
+	Deserialize:            5210.939 ms
+	Integration:            129325.664 ms
+	Integration of assets:  57.458 ms
+	Thread Wait Time:       -8.750 ms
+	Total Operation Time:   134585.313 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29afa248636269317c6aca23c89b4175') in 622.875005 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.069381 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 45.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (46044ms)
+		BeginReloadAssembly (33326ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (835ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23831ms)
+		EndReloadAssembly (11463ms)
+			LoadAssemblies (824ms)
+			RebuildTransferFunctionScriptingTraits (40ms)
+			SetupTypeCache (5331ms)
+			ReleaseScriptCaches (168ms)
+			RebuildScriptCaches (185ms)
+			SetupLoadedEditorAssemblies (3394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (107ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (282ms)
+				ProcessInitializeOnLoadAttributes (2714ms)
+				ProcessInitializeOnLoadMethodAttributes (282ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(d5e9960b0bed91f42a65080d8c6a6181) path("Assets/JamGame/Script/Player/CDash.cs") state(2)
+Script is not up to date after domain reload: guid(570adc3be38ce2e4c8982146e30e2f6c) path("Assets/JamGame/Script/Player/CCharacterKinematics.cs") state(2)
+Script is not up to date after domain reload: guid(81d695942dcfdae46bb16d7af5aaf657) path("Assets/JamGame/Script/Player/CClimp.cs") state(2)
+Script is not up to date after domain reload: guid(d0aa9b81f56b6bc4fbc99bb1b130c59e) path("Assets/JamGame/Script/Player/CSlide.cs") state(2)
+Script is not up to date after domain reload: guid(ba80607eb934cd74b91631cbe50ce0fb) path("Assets/JamGame/Script/Camera/CMoveCamera.cs") state(2)
+Script is not up to date after domain reload: guid(a104c220e3f84504e9142070fed770c2) path("Assets/JamGame/Script/Player/CCharacterBehaviour.cs") state(2)
+Script is not up to date after domain reload: guid(538b91760b8899a4f961851563d7c7b4) path("Assets/JamGame/Script/Player/CTimeManager.cs") state(2)
+Script is not up to date after domain reload: guid(2f8b11fd5c18f5943bfa37a48dbf1fdb) path("Assets/JamGame/Script/Player/CCharacter.cs") state(2)
+Script is not up to date after domain reload: guid(0ff74ffe47738974785a180686a493a9) path("Assets/JamGame/Script/Player/CPlayerLife.cs") state(2)
+Script is not up to date after domain reload: guid(3b51eb8130e3a0b438637d0041652429) path("Assets/JamGame/Script/Player/CPlayerMovementAdvance.cs") state(2)
+Script is not up to date after domain reload: guid(f0287e24d37e1cf48b769cbae9e9a0b2) path("Assets/JamGame/Script/Menu/CRespawn.cs") state(2)
+Script is not up to date after domain reload: guid(c9c87432fa39b8d48bcb909346eaa97d) path("Assets/JamGame/Script/Singleton/CLevelManager.cs") state(2)
+Script is not up to date after domain reload: guid(929575ccff20dc14ca04a99aeec8f082) path("Assets/JamGame/Script/Player/PlayerMovement.cs") state(2)
+Script is not up to date after domain reload: guid(32a92f32d2fffd44dbe8a5e0415ddc8f) path("Assets/JamGame/Script/Menu/CPauseMenu.cs") state(2)
+Script is not up to date after domain reload: guid(6e2c258561b6a5b48a442db15e3ef290) path("Assets/JamGame/Script/Player/CPlayer.cs") state(2)
+Script is not up to date after domain reload: guid(abd76509b62b7d54093225907fe7f1d1) path("Assets/JamGame/Script/Singleton/CGameManager.cs") state(2)
+Script is not up to date after domain reload: guid(0dab30c40cf70a3418927cf7ad365320) path("Assets/JamGame/Script/Menu/CSwitch.cs") state(2)
+Script is not up to date after domain reload: guid(996e501a2a71f034d8f679f68078338d) path("Assets/JamGame/Script/Camera/CPlayerCam.cs") state(2)
+Refreshing native plugins compatible for Editor in 6.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (2.0 MB). Loaded Objects now: 7671.
+Memory consumption went from 332.9 MB to 330.9 MB.
+Total: 229.227600 ms (FindLiveObjects: 1.056200 ms CreateObjectMapping: 0.986400 ms MarkObjects: 222.609900 ms  DeleteObjects: 4.572900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.285 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5286ms)
+		BeginReloadAssembly (973ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (417ms)
+		EndReloadAssembly (3809ms)
+			LoadAssemblies (541ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1089ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (169ms)
+			SetupLoadedEditorAssemblies (867ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (546ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7022 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (2.0 MB). Loaded Objects now: 7692.
+Memory consumption went from 333.4 MB to 331.4 MB.
+Total: 26.505000 ms (FindLiveObjects: 0.878300 ms CreateObjectMapping: 0.926500 ms MarkObjects: 23.868500 ms  DeleteObjects: 0.830200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

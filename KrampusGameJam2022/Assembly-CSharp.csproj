@@ -1519,9 +1519,24 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\Objects Stats\objectsStatsSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\materialExtractionStationSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\rechargerStation.cs" />
-    <Compile Include="Assets\JamGame\3dAssets\TheNuckToolbucket_Fin\TheNuckToolbucket\Source\TheNuckToolbucket\TheNuckToolbucket.Build.cs" />
-    <Compile Include="Assets\JamGame\3dAssets\TheNuckToolbucket_Fin\TheNuckToolbucket\Source\TheNuckToolbucketEditor.Target.cs" />
-    <Compile Include="Assets\JamGame\3dAssets\TheNuckToolbucket_Fin\TheNuckToolbucket\Source\TheNuckToolbucket.Target.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CTimeManager.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CCharacterKinematics.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CPlayerMovementAdvance.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CPlayerLife.cs" />
+    <Compile Include="Assets\JamGame\Script\Singleton\CGameManager.cs" />
+    <Compile Include="Assets\JamGame\Script\Singleton\CLevelManager.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CCharacter.cs" />
+    <Compile Include="Assets\JamGame\Script\Camera\CMoveCamera.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\JamGame\Script\Menu\CRespawn.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CSlide.cs" />
+    <Compile Include="Assets\JamGame\Script\Menu\CPauseMenu.cs" />
+    <Compile Include="Assets\JamGame\Script\Menu\CSwitch.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CPlayer.cs" />
+    <Compile Include="Assets\JamGame\Script\Camera\CPlayerCam.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CClimp.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CCharacterBehaviour.cs" />
+    <Compile Include="Assets\JamGame\Script\Player\CDash.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VNB - Xmas Mini-Set\ReadMe.txt" />
@@ -1560,13 +1575,11 @@
     <None Include="Assets\Game Kit Controller\Shaders\Others\Cloak Shader.shader" />
     <None Include="Assets\Game Kit Controller\Shaders\Camera Effects\Oil Paint.shader" />
     <None Include="Assets\Game Kit Controller\Shaders\textShader.shader" />
-    <None Include="Assets\JamGame\3dAssets\TheNuckToolbucket_Fin\TheNuckToolbucket\Binaries\Win64\UE4Editor-TheNuckToolbucket.dll" />
     <None Include="Assets\Game Kit Controller\Shaders\Camera Effects\Underwater Shader Effect.shader" />
     <None Include="Assets\Game Kit Controller\Prefabs\Particles\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Game Kit Controller\Demo 3d Model\Characters\Third Person Character\Animation\Ellen\Shaders\ToonSkin.shader" />
     <None Include="Assets\Game Kit Controller\Documentation\Readme.txt" />
     <None Include="Assets\Game Kit Controller\Documentation\Old documentation\IMPORTANT ABOUT OLD DOCUMENTATION.txt" />
-    <None Include="Assets\JamGame\3dAssets\TheNuckToolbucket_Fin\TheNuckToolbucket\Binaries\Win64\UE4Editor-TheNuckToolbucket-2594.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

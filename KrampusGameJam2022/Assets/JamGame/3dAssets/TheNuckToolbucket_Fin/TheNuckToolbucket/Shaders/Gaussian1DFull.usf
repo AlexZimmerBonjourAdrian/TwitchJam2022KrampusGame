@@ -1,9 +1,0 @@
-//gaussian 1D, full formula
-
-return 0;
-}
-
-float Calculate1DGaussian(float x, float sigma)
-{
-	const float pi = 3.14159f;
-	return (1.0f / (sqrt(2 * pi) * sigma)) * exp(-x * x / (2 * sigma * sigma));
