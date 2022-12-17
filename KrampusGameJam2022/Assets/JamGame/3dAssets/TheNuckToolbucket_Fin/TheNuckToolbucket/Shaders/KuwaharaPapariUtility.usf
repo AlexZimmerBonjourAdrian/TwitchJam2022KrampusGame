@@ -1,0 +1,253 @@
+	return 0;
+}
+
+float4 GetMeanAndVariance(float2 UV, int Chunk)
+{
+	int SceneTexIndex = 14;
+	float2 TexelSize = View.ViewSizeAndInvSize.zw;
+	
+	
+	float3 Mean = float3(0.0f, 0.0f, 0.0f);
+	float3 Variance = float3(0.0f, 0.0f, 0.0f);
+	int Samples = 13;
+	
+	
+	
+	float2 Offsets[13];
+	Offsets[0] = float2(0, 0);
+	
+	[forcecase] switch(Chunk)
+	{
+		case 0:
+			Offsets[1] = float2(-2, -5);
+			Offsets[2] = float2(-1, -5);
+			Offsets[3] = float2(-1, -4);
+			Offsets[4] = float2(-1, -3);
+			Offsets[5] = float2(0, -5);
+			Offsets[6] = float2(0, -4);
+			Offsets[7] = float2(0, -3);
+			Offsets[8] = float2(0, -2);
+			Offsets[9] = float2(0, -1);
+			Offsets[10] = float2(1, -5);
+			Offsets[11] = float2(1, -4);
+			Offsets[12] = float2(1, -3);
+		break;
+		case 1:
+			Offsets[1] = float2(1, -2);
+			Offsets[2] = float2(1, -1);
+			Offsets[3] = float2(2, -5);
+			Offsets[4] = float2(2, -4);
+			Offsets[5] = float2(2, -3);
+			Offsets[6] = float2(2, -2);
+			Offsets[7] = float2(2, -1);
+			Offsets[8] = float2(3, -4);
+			Offsets[9] = float2(3, -3);
+			Offsets[10] = float2(3, -2);
+			Offsets[11] = float2(4, -3);
+			Offsets[12] = float2(4, -2);
+		break;
+		case 2:
+			Offsets[1] = float2(1, 0);
+			Offsets[2] = float2(2, 0);
+			Offsets[3] = float2(3, 0);
+			Offsets[4] = float2(4, 0);
+			Offsets[5] = float2(5, 0);
+			Offsets[6] = float2(3, -1);
+			Offsets[7] = float2(4, -1);
+			Offsets[8] = float2(5, -1);
+			Offsets[9] = float2(5, -2);
+			Offsets[10] = float2(3, 1);
+			Offsets[11] = float2(4, 1);
+			Offsets[12] = float2(5, 1);
+		break;
+		case 3:
+			Offsets[1] = float2(1, 2);
+			Offsets[2] = float2(1, 1);
+			Offsets[3] = float2(5, 2);
+			Offsets[4] = float2(2, 4);
+			Offsets[5] = float2(2, 3);
+			Offsets[6] = float2(2, 2);
+			Offsets[7] = float2(2, 1);
+			Offsets[8] = float2(3, 4);
+			Offsets[9] = float2(3, 3);
+			Offsets[10] = float2(3, 2);
+			Offsets[11] = float2(4, 3);
+			Offsets[12] = float2(4, 2);
+		break;
+		case 4:
+			Offsets[1] = float2(2, 5);
+			Offsets[2] = float2(-1, 5);
+			Offsets[3] = float2(-1, 4);
+			Offsets[4] = float2(-1, 3);
+			Offsets[5] = float2(0, 5);
+			Offsets[6] = float2(0, 4);
+			Offsets[7] = float2(0, 3);
+			Offsets[8] = float2(0, 2);
+			Offsets[9] = float2(0, 1);
+			Offsets[10] = float2(1, 5);
+			Offsets[11] = float2(1, 4);
+			Offsets[12] = float2(1, 3);
+		break;
+		case 5:
+			Offsets[1] = float2(-1, -2);
+			Offsets[2] = float2(-1, -1);
+			Offsets[3] = float2(-5, -2);
+			Offsets[4] = float2(-2, -4);
+			Offsets[5] = float2(-2, -3);
+			Offsets[6] = float2(-2, -2);
+			Offsets[7] = float2(-2, -1);
+			Offsets[8] = float2(-3, -4);
+			Offsets[9] = float2(-3, -3);
+			Offsets[10] = float2(-3, -2);
+			Offsets[11] = float2(-4, -3);
+			Offsets[12] = float2(-4, -2);
+		break;
+		case 6:
+			Offsets[1] = float2(-1, 0);
+			Offsets[2] = float2(-2, 0);
+			Offsets[3] = float2(-3, 0);
+			Offsets[4] = float2(-4, 0);
+			Offsets[5] = float2(-5, 0);
+			Offsets[6] = float2(-3, -1);
+			Offsets[7] = float2(-4, -1);
+			Offsets[8] = float2(-5, -1);
+			Offsets[9] = float2(-5, 2);
+			Offsets[10] = float2(-3, 1);
+			Offsets[11] = float2(-4, 1);
+			Offsets[12] = float2(-5, 1);
+		break;
+		case 7:
+			Offsets[1] = float2(-1, 2);
+			Offsets[2] = float2(-1, 1);
+			Offsets[3] = float2(-2, 5);
+			Offsets[4] = float2(-2, 4);
+			Offsets[5] = float2(-2, 3);
+			Offsets[6] = float2(-2, 2);
+			Offsets[7] = float2(-2, 1);
+			Offsets[8] = float2(-3, 4);
+			Offsets[9] = float2(-3, 3);
+			Offsets[10] = float2(-3, 2);
+			Offsets[11] = float2(-4, 3);
+			Offsets[12] = float2(-4, 2);
+		break;
+	}
+	
+	
+	for(int i = 0; i < Samples; ++i)
+	{
+		float2 Offset = Offsets[i] * TexelSize;
+		float3 Pixel = SceneTextureLookup(UV + Offset, SceneTexIndex, false).rgb;
+		
+		Mean += Pixel;
+		Variance += Pixel * Pixel;
+	}
+	
+	Mean /= Samples;
+	Variance /= Samples;
+	Variance -= Mean * Mean;
+	
+	float TotalVariance = Variance.r + Variance.g + Variance.b;
+	return float4(Mean.r, Mean.g, Mean.b, TotalVariance);
+	
+	
+	
+//non-hardcoded papari method
+
+	return 0;
+}
+
+float4 GetMeanAndVariance(float2 UV, int Chunk, float Range)
+{
+	int SceneTexIndex = 14;
+	float2 TexelSize = View.ViewSizeAndInvSize.zw;
+	
+	float3 Mean = float3(0.0f, 0.0f, 0.0f);
+	float3 Variance = float3(0.0f, 0.0f, 0.0f);
+	int Samples = 0;
+	
+	float PI = 3.14159f;
+	//angles are 0, 45, 90, 135, 180, etc
+	//which can be represented by the number of chunk * 45
+	float angle = Chunk * PI / 4.0f;
+	//actual extent of the chunk is always range + center pixel, which is 1
+	float r = Range + 1.0f;
+	//these are essentially polar coordinates 
+	//so to find bounds, you can use cartesian (x, y)
+	
+	float cosA = cos(angle / 2.0f);
+	float sinA = cos(angle / 2.0f);
+	
+	float2x2 mRotation = float2x2(cosA, -sinA, sinA, cosA);
+	
+	//this is not exactly a circle as Papari method proposes
+	//it's more of an octagon. a strange looking octagon
+	//but it's impossible to accurately represent 1/8th of a circle
+	//with a very small amount of pixels. 
+	for(int x = 0; x < Range; ++x)
+	{
+		//angle +- is always PI/8
+		//int yRound = round(x * sinA);
+		int yRound = trunc(x * (-sinA));
+		for(int y = -yRound; y < yRound; ++y)
+		{
+			float2 Offset = mul(float2(x, y) * TexelSize, mRotation);
+			float3 Pixel = SceneTextureLookup(UV + Offset, SceneTexIndex, false).rgb;
+			
+			Mean += Pixel;
+			Variance += Pixel * Pixel;
+			++Samples;
+		}
+		
+	}
+	
+	Mean /= Samples;
+	Variance /= Samples;
+	Variance -= Mean * Mean;
+	
+	float TotalVariance = Variance.r + Variance.g + Variance.b;
+	return float4(Mean.r, Mean.g, Mean.b, TotalVariance);
+}
+
+float GetLineAngle(float2 UV)
+{
+	float GradX = 0.0f;
+	float GradY = 0.0f;
+	float SobelX[9] = { 
+		-1, -2, -1, 
+		 0,  0,  0, 
+		 1,  2,  1 
+	};
+	float SobelY[9] = {
+		-1, 0, 1,
+		-2, 0, 2, 
+		-1, 0, 1
+	};
+	
+	int index = 0;
+	
+	for(int y = -1; y <= 1; ++y)
+	{
+		for(int x = -1; x <= 1; ++x)
+		{
+			float2 TexelSize = View.ViewSizeAndInvSize.zw;
+			int SceneTexIndex = 14;
+			
+			float2 Offset =  float2(x, y) * TexelSize;
+			float3 Pixel = SceneTextureLookup(UV + Offset, SceneTexIndex, false);
+			float PixelValue = dot(Pixel, float3(0.3f, 0.59f, 0.11f));
+			
+			GradX += SobelX[index] * PixelValue;
+			GradY += SobelY[index] * PixelValue;
+			++index;
+		}
+	}
+	
+	return atan(GradY / GradX);
+
+	
+	
+	
+	
+	
+	
+	

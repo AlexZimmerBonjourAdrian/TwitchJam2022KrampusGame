@@ -1,0 +1,49 @@
+//INPUTS:
+//float timePass; 
+//float timePeriod;
+
+float channels[3] = { 0, 0, 0 };
+
+//make sure the time doesn't exceed period
+if(timePass > timePeriod)
+	timePass = timePass % timePeriod;
+
+//there's no need to loop through all 6 states, 
+//since first 3 mirror the second 3 states
+float newTime = timePass;
+if(newTime > timePeriod / 2.0f)
+{
+	newTime = newTime - 3.0f;
+}
+	
+//compute colour values
+if(newTime <= (timePeriod / 6.0f))
+{
+	channels[0] = newTime;
+	channels[1] = 1.0f;
+	channels[2] = 0.0f;
+}
+else if(newTime <= (timePeriod / 3.0f))
+{
+	channels[0] = 1.0f;
+	channels[1] = 1.0f - (newTime - 1.0f);
+	channels[2] = 0.0f;
+}
+else 
+{
+	channels[0] = 1.0f;
+	channels[1] = 0.0f;
+	channels[2] = newTime - 2.0f;
+}
+
+//if computing the second 3 states, flip values
+if(timePass > timePeriod / 2.0f)
+{
+	for(int count = 0; count < 3; ++count)
+	{
+		channels[count] = 1.0f - channels[count];
+	}
+}
+
+float3 FinalColour = {channels[0], channels[1], channels[2]};
+return FinalColour;

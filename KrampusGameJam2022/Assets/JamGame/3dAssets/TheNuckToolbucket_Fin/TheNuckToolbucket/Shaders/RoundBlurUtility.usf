@@ -1,0 +1,26 @@
+	return 0;
+}
+
+float2 CartesianToPolar(float2 CartUV)
+{
+	float r;
+	float angle;
+	float x = CartUV.r;
+	float y = CartUV.g;
+
+	r = sqrt(x * x + y * y);
+
+	angle = atan2(y, x);
+
+	return float2(r, angle);
+}
+
+float2 PolarToCartesian(float2 PolarUV)
+{
+	float r = PolarUV.r;
+	float angle = PolarUV.g;
+
+	float x = r * cos(angle);
+	float y = r * sin(angle);
+
+	return float2(x, y);

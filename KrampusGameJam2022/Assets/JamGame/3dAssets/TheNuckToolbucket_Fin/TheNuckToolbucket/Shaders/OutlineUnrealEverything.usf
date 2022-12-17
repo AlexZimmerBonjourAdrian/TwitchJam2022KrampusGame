@@ -1,0 +1,33 @@
+//INPUTS: Range, TexelSize, OffsetScale
+
+int SceneTextureId = 8;
+float2 UV = GetDefaultSceneTextureUV(Parameters, SceneTextureId);
+
+//offset added to all uvs to get from the center to the corner
+MaterialFloat2 baseOffset = MaterialFloat2(-Range/2.0f, -Range/2.0f) * TexelSize.rg;
+
+float4 BaseNormal = SceneTextureLookup(UV, SceneTextureId, false);
+
+//initial value, has to be larger than newDot = [-1, 1]
+float minDot = 10.0f;
+
+for (int y = 0; y < Range; ++y)
+{
+	for (int x = 0; x < Range; ++x)
+	{
+		//calucalte clamped uvs
+		float2 UVs = min(max(UV + baseOffset * OffsetScale + y * TexelSize.r * OffsetScale * 
+			float2(1.0, 0.0f) + x * TexelSize.g * OffsetScale * float2(0.0, 1.0f), float2(0.0f, 0.0f)), 
+			float2(1.0f, 1.0f));
+		
+		float newDot = dot(BaseNormal, SceneTextureLookup(UVs, SceneTextureId, false));
+		
+		if (newDot < minDot)
+		{
+			minDot = newDot;
+		}
+	}
+}
+
+//return the smallest dot product in the region
+return minDot;

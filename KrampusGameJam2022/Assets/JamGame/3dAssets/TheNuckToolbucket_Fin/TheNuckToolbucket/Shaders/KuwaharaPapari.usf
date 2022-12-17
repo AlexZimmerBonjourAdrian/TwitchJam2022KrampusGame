@@ -1,0 +1,50 @@
+//INPUTS: float XRange, float YRange
+
+int SceneTexId = 14;
+
+float2 UV = GetDefaultSceneTextureUV(Parameters, SceneTexId);
+float4 MeanAndVariance[8];
+float Chunk;
+
+for(int i = 0; i < 8; ++i)
+{
+	MeanAndVariance[i] = GetMeanAndVariance(UV, i);
+}
+
+float MinVarianceIndex = 0;
+for(int i = 0; i < 8; ++i)
+{
+	if(MeanAndVariance[i].a < MeanAndVariance[MinVarianceIndex].a)
+	{
+		MinVarianceIndex = i;
+	}
+}
+
+return MeanAndVariance[MinVarianceIndex].rgb;
+
+
+
+
+//non hardcoded papari method
+
+int SceneTexId = 14;
+
+float2 UV = GetDefaultSceneTextureUV(Parameters, SceneTexId);
+float4 MeanAndVariance[8];
+float Chunk;
+
+for(int i = 0; i < 8; ++i)
+{
+	MeanAndVariance[i] = GetMeanAndVariance(UV, i, Range);
+}
+
+float MinVarianceIndex = 0;
+for(int i = 0; i < 8; ++i)
+{
+	if(MeanAndVariance[i].a < MeanAndVariance[MinVarianceIndex].a)
+	{
+		MinVarianceIndex = i;
+	}
+}
+
+return MeanAndVariance[MinVarianceIndex].rgb;

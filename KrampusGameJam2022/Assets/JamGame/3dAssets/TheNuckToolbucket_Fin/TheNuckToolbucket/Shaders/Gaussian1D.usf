@@ -1,0 +1,9 @@
+//version of simple gaussian 1D which includes standard deviation
+
+return 0;
+}
+
+float Calculate1DGaussian(float x, float sigma)
+{
+	const float pi = 3.14159f;
+	return (exp(-sigma * x * x * pi * pi));

@@ -1,0 +1,15 @@
+//switch test
+
+switch(Index)
+{
+case 1:
+	return IN1;
+case 2:
+	return IN2;
+case 3:	
+	return IN3;
+case 4:
+	return IN4;
+}
+
+return 0;
