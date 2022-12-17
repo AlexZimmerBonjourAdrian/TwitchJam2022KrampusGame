@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27d8b2ca7966ef4c9b361fcf9b3f2ab, type: 3}
+  m_Name: AK74M
+  m_EditorClassIdentifier: 
+  weapon_name: AK74M
+  weapon_description: Ak74M, una modernizacion de el ak 47 de 1950, efectiva y brutal
+  equip_speed: 1
+  unequip_speed: 1
+  reload_speed: 1.2
+  accuarcy: 0.6
+  type_Weapon: RifleDeAssalto
+  recoilX: -30
+  recoilY: 30
+  recoilZ: 0.035
+  returnSpeed: 10
+  Snappiness: 20
+  offset: 0.3
+  multidisparo: 0
+  exparsion: 0
+  ammo_in_mag: 30
+  extra_ammo: 400
+  mag_size: 30
+  damage: 80
+  fire_rate: 0.2
+  distance: 100

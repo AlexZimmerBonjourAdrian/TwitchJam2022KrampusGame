@@ -15,7 +15,7 @@ E:/TwitchJam2022KrampusGame/KrampusGameJam2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65431
+64406
 Successfully changed project path to: E:/TwitchJam2022KrampusGame/KrampusGameJam2022
 E:/TwitchJam2022KrampusGame/KrampusGameJam2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/TwitchJam2022KrampusGame/KrampusGameJam2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 428.75 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 306.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path E:/Unity/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,672 +63,159 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: E:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007705 seconds.
+Registered in 0.005037 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 394.24 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 309.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.518 seconds
+- Completed reload, in  1.273 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1520ms)
-		BeginReloadAssembly (171ms)
+	ReloadAssembly (1274ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1107ms)
-			LoadAssemblies (170ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (976ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (204ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (717ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (631ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (394ms)
+				RefreshPlugins (310ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (86ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010857 seconds.
+Registered in 0.007970 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 347.34 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 439.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.826 seconds
+- Completed reload, in  3.081 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2828ms)
-		BeginReloadAssembly (202ms)
+	ReloadAssembly (3083ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (2674ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (631ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (236ms)
+			SetupLoadedEditorAssemblies (1547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (439ms)
+				BeforeProcessingInitializeOnLoad (238ms)
+				ProcessInitializeOnLoadAttributes (696ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7310 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (2.0 MB). Loaded Objects now: 7762.
+Memory consumption went from 300.4 MB to 298.4 MB.
+Total: 8.885600 ms (FindLiveObjects: 0.969300 ms CreateObjectMapping: 1.077500 ms MarkObjects: 5.918100 ms  DeleteObjects: 0.918700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 568.330843 seconds.
+  path: Assets/MovementCamera.cs
+  artifactKey: Guid(e39d014ce36d281488b2c8914076c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovementCamera.cs using Guid(e39d014ce36d281488b2c8914076c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad775097b357ab7e1248a85fa54a5ff') in 0.053986 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010398 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2607ms)
+		BeginReloadAssembly (249ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (2419ms)
-			LoadAssemblies (163ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2180ms)
+			LoadAssemblies (174ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (560ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (123ms)
-			SetupLoadedEditorAssemblies (1485ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (347ms)
-				BeforeProcessingInitializeOnLoad (227ms)
-				ProcessInitializeOnLoadAttributes (753ms)
-				ProcessInitializeOnLoadMethodAttributes (144ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Switching render pipeline 00000000000000000000000000000000 -> d27793bff2e20db45ab27ff5b4b44e6a
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 4.19 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 7650.
-Memory consumption went from 295.5 MB to 293.6 MB.
-Total: 7.138100 ms (FindLiveObjects: 0.923900 ms CreateObjectMapping: 1.090700 ms MarkObjects: 4.392200 ms  DeleteObjects: 0.729600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 211369.311722 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(15bf86b6f9b448944aa735e52a4ad7b5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(15bf86b6f9b448944aa735e52a4ad7b5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '57cdfd4de0f84b4313ef4aab36b38716') in 0.360295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Game Kit Controller/Materials/ground.mat
-  artifactKey: Guid(3dd19a25291c28c4db8d2f51f6a403db) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/ground.mat using Guid(3dd19a25291c28c4db8d2f51f6a403db) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '98f67addcdf2632f1d19c3fc6b20e5a4') in 0.112274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Game Kit Controller/Materials/chest1.mat
-  artifactKey: Guid(17d851350c2402f4a9760703a822d86b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/chest1.mat using Guid(17d851350c2402f4a9760703a822d86b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b3828fe470a69690b73759dc96f3107b') in 0.050917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Game Kit Controller/Documentation/Readme.txt
-  artifactKey: Guid(aec5d5233bc4b9e4ea6fdc38b5a2034e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Documentation/Readme.txt using Guid(aec5d5233bc4b9e4ea6fdc38b5a2034e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b10a6866b1f62afeef80b74acec021c5') in 0.082499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Game Kit Controller/Documentation/Unity Bug on 2018.3 with Rigidbodies Fix.txt
-  artifactKey: Guid(56ec1ca8d4750a244adc5c1c7becb0a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Documentation/Unity Bug on 2018.3 with Rigidbodies Fix.txt using Guid(56ec1ca8d4750a244adc5c1c7becb0a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f91d1bae638df8827d0fc519c3b63caf') in 0.047356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Game Kit Controller/Documentation/Game Kit Controller Documentation 3.03-3 First steps and basic use.pdf
-  artifactKey: Guid(3b6ec2db6795ab746980d667f6271fbc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Documentation/Game Kit Controller Documentation 3.03-3 First steps and basic use.pdf using Guid(3b6ec2db6795ab746980d667f6271fbc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2762393fe4091f4586bf4d2e570962ca') in 0.055507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_WoodAlbedo3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(fa791e9f4d4400f4c987f7755be12811) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/_TerrainAutoUpgrade/layer_WoodAlbedo3d3aba195e4d26ee.terrainlayer using Guid(fa791e9f4d4400f4c987f7755be12811) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '75ceb136441a8dd324e3efdfe7bd6de2') in 0.134635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Game Kit Controller/Materials/Gravity Trigger Off.mat
-  artifactKey: Guid(9511fa92fd4d197498ef01df53f15007) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Gravity Trigger Off.mat using Guid(9511fa92fd4d197498ef01df53f15007) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6ed2bbc0861d0f9e8475c6824c007364') in 0.010017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Game Kit Controller/Materials/Glass.mat
-  artifactKey: Guid(826a59bcde05c2a4e97159f8a2b3ed39) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Glass.mat using Guid(826a59bcde05c2a4e97159f8a2b3ed39) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9f28372a02f715038f7bd94889ad372e') in 0.012594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game Kit Controller/Materials/chest.png
-  artifactKey: Guid(adcb6fd681bbf884e89dc75fc0fea972) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/chest.png using Guid(adcb6fd681bbf884e89dc75fc0fea972) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8b129dfbd5b236da69ed5026fc471133') in 0.227073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Game Kit Controller/Materials/chest6.mat
-  artifactKey: Guid(dfac8769bfdf5a6499a19aae5b812789) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/chest6.mat using Guid(dfac8769bfdf5a6499a19aae5b812789) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '26125f302324330f3af6a8e008422b86') in 0.009832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_MudRockyAlbedoSpecularMudRockyNormals3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(cb25073fd7a3d2a4b8e76e4a886b21c8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/_TerrainAutoUpgrade/layer_MudRockyAlbedoSpecularMudRockyNormals3d3aba195e4d26ee.terrainlayer using Guid(cb25073fd7a3d2a4b8e76e4a886b21c8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b4c420b5ad1b7a802c7adc641f55ac49') in 0.113223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Game Kit Controller/Materials/cartelArrow.mat
-  artifactKey: Guid(c84c792ad9e9e6e4bb1fadf335eddb3d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/cartelArrow.mat using Guid(c84c792ad9e9e6e4bb1fadf335eddb3d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7d5b19af5693fa7b08e81d3631d960e0') in 0.012667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Game Kit Controller/Materials/blackBottom.mat
-  artifactKey: Guid(092c951bac60832498af4e7c1c3cf7f8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/blackBottom.mat using Guid(092c951bac60832498af4e7c1c3cf7f8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c76b2befa74fb241db4339ea92f942b4') in 0.026101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Game Kit Controller/Materials/playerBullet.mat
-  artifactKey: Guid(b8709997674ff3c409094876126b5e49) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/playerBullet.mat using Guid(b8709997674ff3c409094876126b5e49) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '72430eaec23ffa2be5727f232a02d741') in 0.066493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Game Kit Controller/Materials/cameraRender.renderTexture
-  artifactKey: Guid(6511d2253ce23494eb106fbc10a160b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/cameraRender.renderTexture using Guid(6511d2253ce23494eb106fbc10a160b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bb0909fd4730bf14495b665c51886244') in 0.054345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Game Kit Controller/Materials/chest2.mat
-  artifactKey: Guid(abea03960e27b7446b6e21040f518b34) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/chest2.mat using Guid(abea03960e27b7446b6e21040f518b34) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '36560d1f6aa2eee71dce7a25dde51487') in 0.015940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Game Kit Controller/Materials/grenade.mat
-  artifactKey: Guid(7405a6343d03072478d21ed3056f7cc9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/grenade.mat using Guid(7405a6343d03072478d21ed3056f7cc9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ed8aadd19f5b1226794e67d3c665aa8d') in 0.032503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Game Kit Controller/Documentation/CHARACTERS CROSSING THE GROUND FIX (Import External Packages Before Starting).txt
-  artifactKey: Guid(80fc663ec384272438bc3168837bed90) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Documentation/CHARACTERS CROSSING THE GROUND FIX (Import External Packages Before Starting).txt using Guid(80fc663ec384272438bc3168837bed90) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '902a63fed5a02c776ef2f2e9e5f7124e') in 0.033683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/VNB - Xmas Mini-Set/ReadMe.txt
-  artifactKey: Guid(00e1c87bab45f604db8d3f87615553da) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/VNB - Xmas Mini-Set/ReadMe.txt using Guid(00e1c87bab45f604db8d3f87615553da) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a173e22af7832b87588cffa3d66d62fc') in 0.027100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Game Kit Controller/Materials/mapFloorMaterial.mat
-  artifactKey: Guid(4c7d354f916d62a42a67ca18faff6694) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/mapFloorMaterial.mat using Guid(4c7d354f916d62a42a67ca18faff6694) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '649652884f8644c3b41b06c61bcfa50e') in 0.062127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Game Kit Controller/Materials/normalExhaust.mat
-  artifactKey: Guid(c617e7cbee0d2344a9b5e53116c43a2c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/normalExhaust.mat using Guid(c617e7cbee0d2344a9b5e53116c43a2c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9a348cca43c2a75e7f9c3af36f667b4a') in 0.056348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Game Kit Controller/Materials/chest3.mat
-  artifactKey: Guid(055538760c68849418e405f0acd10892) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/chest3.mat using Guid(055538760c68849418e405f0acd10892) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5b3fe01583c871dda3b9eb3c944aef5b') in 0.041251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Game Kit Controller/Materials/Gravity Room Trigger.mat
-  artifactKey: Guid(42a6b7fba592c86499c5b839d7ed294e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Gravity Room Trigger.mat using Guid(42a6b7fba592c86499c5b839d7ed294e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '52ab4f3c257114b74579956e0148f3e6') in 0.032315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Game Kit Controller/Materials/jupiter.mat
-  artifactKey: Guid(a5926850cc1b266468a03d02fd969e1d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/jupiter.mat using Guid(a5926850cc1b266468a03d02fd969e1d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4719b8fda76c98d073ef2d9c25006379') in 0.032269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Game Kit Controller/Materials/laser.mat
-  artifactKey: Guid(1bd04a3405777af419ad14801a46da82) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/laser.mat using Guid(1bd04a3405777af419ad14801a46da82) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '652af6063226b5053ed22921b08af67b') in 0.049607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GrassRockyAlbedo3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(f40f26886778c634dac79ab2d00393bf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/_TerrainAutoUpgrade/layer_GrassRockyAlbedo3d3aba195e4d26ee.terrainlayer using Guid(f40f26886778c634dac79ab2d00393bf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'edbf9860b142af8789f675b94e1798c9') in 0.025412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Game Kit Controller/Materials/Outline.mat
-  artifactKey: Guid(be454e87927ae0a4fa78034af86c7dec) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Outline.mat using Guid(be454e87927ae0a4fa78034af86c7dec) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f82e9d4edeb41d110a842d2de7cf8cb8') in 0.074751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Game Kit Controller/Materials/launchObject.mat
-  artifactKey: Guid(c10e1cdd31cbbe24f8b8d433a15071fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/launchObject.mat using Guid(c10e1cdd31cbbe24f8b8d433a15071fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2705c093d741d4e1e7d6d2e15bbeec0d') in 0.009329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Game Kit Controller/Materials/Oxygen Bubbles.mat
-  artifactKey: Guid(e83814f98653a464b832b783fd8407b0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Oxygen Bubbles.mat using Guid(e83814f98653a464b832b783fd8407b0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0d794aa3d35661038ff6e88fd02c4db9') in 0.029189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Game Kit Controller/Fonts/arial.ttf
-  artifactKey: Guid(b7d912ac39466d848a6d53a015f418a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Fonts/arial.ttf using Guid(b7d912ac39466d848a6d53a015f418a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f27f9f7b12ff1e210d45e59d3532e110') in 0.078639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Game Kit Controller/Materials/ParticleGlow.mat
-  artifactKey: Guid(c10b1630d5621ec48a17223c3c102023) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/ParticleGlow.mat using Guid(c10b1630d5621ec48a17223c3c102023) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '512efadc7a59c604491a6009acf74519') in 0.031363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Game Kit Controller/Materials/Material.mat
-  artifactKey: Guid(6aad6824d2cc841489a95c2601647526) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Material.mat using Guid(6aad6824d2cc841489a95c2601647526) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0f5129a5731fc4ff7978243d800e21f6') in 0.011601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Game Kit Controller/Materials/ammo2.mat
-  artifactKey: Guid(8210754f4c353254fa302e0aa6c59625) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/ammo2.mat using Guid(8210754f4c353254fa302e0aa6c59625) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '022d24e1ed4f87f424df770a72e5bbf5') in 0.033775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Game Kit Controller/Materials/mercury.mat
-  artifactKey: Guid(a8d3d47fb3edb1e4fbc1eeb413ebc409) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/mercury.mat using Guid(a8d3d47fb3edb1e4fbc1eeb413ebc409) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5d8e94eec17be983e93dbc44b836ab7f') in 0.010963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game Kit Controller/Materials/leftFootPrint.mat
-  artifactKey: Guid(025398be023a8474db7a13c09793d937) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/leftFootPrint.mat using Guid(025398be023a8474db7a13c09793d937) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '739420d7aaa514debe26453edb525a70') in 0.011020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Game Kit Controller/Materials/energyPickUp2.mat
-  artifactKey: Guid(758247a9f3f43de4c8830354c5427c83) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/energyPickUp2.mat using Guid(758247a9f3f43de4c8830354c5427c83) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '635c4bef5c055664c163466918e45611') in 0.031698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_SandAlbedo3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(a15e6ecf8acffec48bf3987b44569213) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/_TerrainAutoUpgrade/layer_SandAlbedo3d3aba195e4d26ee.terrainlayer using Guid(a15e6ecf8acffec48bf3987b44569213) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8cdf923e0935236eb32b705312e2b173') in 0.049521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Game Kit Controller/Materials/blackHoleParticles.mat
-  artifactKey: Guid(2657df6125e4fcf42817aefba80049c8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/blackHoleParticles.mat using Guid(2657df6125e4fcf42817aefba80049c8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1ab3ed6f7ded2430cad4ea4c8db00408') in 0.075038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Game Kit Controller/Scenes/Lock on Targets Demo.unity
-  artifactKey: Guid(92c095feb50cb644786171673c162fa7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Scenes/Lock on Targets Demo.unity using Guid(92c095feb50cb644786171673c162fa7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Game Kit Controller/Scenes/Lock on Targets Demo.unity additively'
-LightingSettings: switching bake backend from 1 to 0.
-Loaded scene 'Assets/Game Kit Controller/Scenes/Lock on Targets Demo.unity'
-	Deserialize:            21.173 ms
-	Integration:            6015.941 ms
-	Integration of assets:  0.064 ms
-	Thread Wait Time:       -0.047 ms
-	Total Operation Time:   6037.131 ms
-Generated GUIDs only implemented for interfaces!
- -> (artifact id: '953fac7e727c5c5ad1c12587cb049b73') in 447.120210 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011748 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.356 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5357ms)
-		BeginReloadAssembly (1369ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (3771ms)
-			LoadAssemblies (2850ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (705ms)
+			SetupTypeCache (666ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (979ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (1061ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (568ms)
-				ProcessInitializeOnLoadMethodAttributes (200ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Switching render pipeline 00000000000000000000000000000000 -> d27793bff2e20db45ab27ff5b4b44e6a
-Refreshing native plugins compatible for Editor in 46.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7003 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (2.0 MB). Loaded Objects now: 7662.
-Memory consumption went from 302.8 MB to 300.9 MB.
-Total: 7.751100 ms (FindLiveObjects: 0.825100 ms CreateObjectMapping: 1.350000 ms MarkObjects: 4.764200 ms  DeleteObjects: 0.809800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 348.543539 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(fa481e09a06cfc7409d7ce8dc19a5786) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/_TerrainAutoUpgrade/layer_3d3aba195e4d26ee.terrainlayer using Guid(fa481e09a06cfc7409d7ce8dc19a5786) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0267526a1c64e0fee9582fd79c7b06f2') in 0.549741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Game Kit Controller/Materials/Walls.mat
-  artifactKey: Guid(e32b9c7d3872b5743a35794e58a6020a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Walls.mat using Guid(e32b9c7d3872b5743a35794e58a6020a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd33fb4bab2925f48227744220bbb2d5a') in 0.219131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Game Kit Controller/Materials/White Text.mat
-  artifactKey: Guid(2432acee1cb980d45afd1267325d3303) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/White Text.mat using Guid(2432acee1cb980d45afd1267325d3303) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '288c2809da2ea266dd2517f026a1301d') in 0.146164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Game Kit Controller/Materials/refractionCube.mat
-  artifactKey: Guid(2509992ab85318f49915b7d5aaaff921) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/refractionCube.mat using Guid(2509992ab85318f49915b7d5aaaff921) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7114dd22ba63ed7ba1cefd22a30597ca') in 0.066994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Game Kit Controller/Materials/text.mat
-  artifactKey: Guid(f40f0a5e03b32614d97f4e59975349dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/text.mat using Guid(f40f0a5e03b32614d97f4e59975349dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5c97f743406bea81f884dc32fdea5cc4') in 0.048612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Game Kit Controller/Materials/semiTransparent.mat
-  artifactKey: Guid(e89dea8b95e5ee3468fdc07a36151161) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/semiTransparent.mat using Guid(e89dea8b95e5ee3468fdc07a36151161) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '743bd97ac16b21be5f50a4d5c649cd5e') in 0.034621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Game Kit Controller/Materials/trayectory.mat
-  artifactKey: Guid(98e9d0e339a9b5046a35b454d2a3b152) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/trayectory.mat using Guid(98e9d0e339a9b5046a35b454d2a3b152) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a619c00e7d3b82c4073ef18bfc044136') in 0.155501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Game Kit Controller/Materials/sun.mat
-  artifactKey: Guid(f495fbc32ac6ec74d9c5ef8425dd843f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/sun.mat using Guid(f495fbc32ac6ec74d9c5ef8425dd843f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '53c3a35c8804d39d9e2a7dff2ec45b06') in 0.033446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Game Kit Controller/Materials/Simple Cube White.mat
-  artifactKey: Guid(5eb269daa00017240aae9a95deb691d7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Simple Cube White.mat using Guid(5eb269daa00017240aae9a95deb691d7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'adc1307778bfb3c2cf4dac31f6ac6346') in 0.130401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Game Kit Controller/Materials/smoke2.mat
-  artifactKey: Guid(dd596c20c527bac43ba5ae914c9ae0f0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/smoke2.mat using Guid(dd596c20c527bac43ba5ae914c9ae0f0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ad60fea13b75ab1638d3ca5ef3c4059e') in 0.045802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Game Kit Controller/Materials/slowDown1.mat
-  artifactKey: Guid(64787140592829241a4a0c8ae076d65c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/slowDown1.mat using Guid(64787140592829241a4a0c8ae076d65c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c7ce372e8e87302a23f533ded7e017e9') in 0.231057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Game Kit Controller/Materials/Simple Bow Material.mat
-  artifactKey: Guid(b4e329bc6a5d8604086719186ec5d599) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Simple Bow Material.mat using Guid(b4e329bc6a5d8604086719186ec5d599) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cea0c158ea80a297651968d3b809b33f') in 0.092321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Game Kit Controller/Materials/scorch.mat
-  artifactKey: Guid(037ad727b7bf89346a4d6e019e45a351) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/scorch.mat using Guid(037ad727b7bf89346a4d6e019e45a351) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c9cdc6d7efd853fdec8fc3f695a37d6e') in 0.049121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Game Kit Controller/Materials/pluto.mat
-  artifactKey: Guid(972df6102c987d947b9d8e6df3f109f6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/pluto.mat using Guid(972df6102c987d947b9d8e6df3f109f6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c7b387c5c480847a32e6bc579c207bfe') in 0.032895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Game Kit Controller/Materials/Throw Weapon Trail Renderer Material.mat
-  artifactKey: Guid(061e14ef150d9504f92963e052fc26a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Throw Weapon Trail Renderer Material.mat using Guid(061e14ef150d9504f92963e052fc26a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd79d81eb5181d6e816b35b4f3cbd9cc3') in 0.029632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Game Kit Controller/Materials/shield.mat
-  artifactKey: Guid(4067d148f07d55b40a9294e7dbb48d3f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/shield.mat using Guid(4067d148f07d55b40a9294e7dbb48d3f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '83a8e805f7f2d3b699dc29579e513673') in 0.266992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Game Kit Controller/Materials/wheels.mat
-  artifactKey: Guid(e7423fdf7a11c3c4c8bc86afd0e4bc81) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/wheels.mat using Guid(e7423fdf7a11c3c4c8bc86afd0e4bc81) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '26a1dcab3527b407651328bb00911782') in 0.057247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Game Kit Controller/Materials/turret.mat
-  artifactKey: Guid(d80f0db911bc6414789a63aa405a290f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/turret.mat using Guid(d80f0db911bc6414789a63aa405a290f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6e55cc3d576e1eaf4ba781e2ec474b34') in 0.020817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Game Kit Controller/Materials/Semi Transparent Without Shadows.mat
-  artifactKey: Guid(01f6c48b42eb32f458764e0b797fd68d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/Semi Transparent Without Shadows.mat using Guid(01f6c48b42eb32f458764e0b797fd68d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e99554639024deb6902bbe73813e33cf') in 0.052664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Game Kit Controller/Materials/tile.mat
-  artifactKey: Guid(a9e834304a93024478fa441c2e0c07a7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/tile.mat using Guid(a9e834304a93024478fa441c2e0c07a7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2ad1f79bf8bba053cb2f742f7bd64b8b') in 0.023369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Game Kit Controller/Others/Light Saber Glow Material.mat
-  artifactKey: Guid(b6fc5b796927ea1419e5872226f1f684) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Others/Light Saber Glow Material.mat using Guid(b6fc5b796927ea1419e5872226f1f684) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b30b88b64d2089f51f87caba158706e9') in 0.062034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Game Kit Controller/Materials/See Through Surfaces 1.mat
-  artifactKey: Guid(968ec9c77c85bd047a1879815cfe3685) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Materials/See Through Surfaces 1.mat using Guid(968ec9c77c85bd047a1879815cfe3685) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '26f9e187b34cf21dfcc5dff2feac792e') in 0.076317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Game Kit Controller/Scenes/Powers Demo Starting Third Person.unity
-  artifactKey: Guid(f49a2cb0f2208664da548720e0e307bf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Start importing Assets/Game Kit Controller/Scenes/Powers Demo Starting Third Person.unity using Guid(f49a2cb0f2208664da548720e0e307bf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Game Kit Controller/Scenes/Powers Demo Starting Third Person.unity additively'
-LightingSettings: switching bake backend from 1 to 0.
-Loaded scene 'Assets/Game Kit Controller/Scenes/Powers Demo Starting Third Person.unity'
-	Deserialize:            101.589 ms
-	Integration:            176402.125 ms
-	Integration of assets:  0.771 ms
-	Thread Wait Time:       -0.516 ms
-	Total Operation Time:   176503.969 ms
-Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6739fba848993a0e7f4bdf8e400b897c') in 698.269378 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.084788 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 32.396 seconds
-Domain Reload Profiling:
-	ReloadAssembly (32482ms)
-		BeginReloadAssembly (18720ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (628ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (21ms)
-			CreateAndSetChildDomain (8486ms)
-		EndReloadAssembly (12792ms)
-			LoadAssemblies (10628ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2597ms)
-			ReleaseScriptCaches (86ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (2334ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (83ms)
-				SetLoadedEditorAssemblies (20ms)
-				RefreshPlugins (3ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (6ms)
 				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (1421ms)
-				ProcessInitializeOnLoadMethodAttributes (633ms)
+				ProcessInitializeOnLoadAttributes (667ms)
+				ProcessInitializeOnLoadMethodAttributes (182ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7003 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (2.0 MB). Loaded Objects now: 7671.
-Memory consumption went from 321.6 MB to 319.6 MB.
-Total: 197.221700 ms (FindLiveObjects: 1.247300 ms CreateObjectMapping: 0.934800 ms MarkObjects: 194.109700 ms  DeleteObjects: 0.928000 ms)
+Unloading 7111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 7765.
+Memory consumption went from 288.8 MB to 286.9 MB.
+Total: 6.741800 ms (FindLiveObjects: 0.654600 ms CreateObjectMapping: 0.612200 ms MarkObjects: 4.606000 ms  DeleteObjects: 0.866900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -737,63 +224,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 350.509269 seconds.
-  path: Assets/JamGame/Scenes/MenuTest.unity
-  artifactKey: Guid(6fa1be709a912eb46819fa4596f8f662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JamGame/Scenes/MenuTest.unity using Guid(6fa1be709a912eb46819fa4596f8f662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97eee5a84714ca109283e3a7978e8f0') in 0.150161 seconds 
+  Time since last request: 164.815566 seconds.
+  path: Assets/MovementCamera.cs
+  artifactKey: Guid(e39d014ce36d281488b2c8914076c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovementCamera.cs using Guid(e39d014ce36d281488b2c8914076c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9df0072034978f9ff01f6a326b1b96') in 0.021807 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008847 seconds.
+Registered in 0.012938 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.363 seconds
+- Completed reload, in  2.195 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6365ms)
-		BeginReloadAssembly (1203ms)
+	ReloadAssembly (2196ms)
+		BeginReloadAssembly (259ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (751ms)
-		EndReloadAssembly (5004ms)
-			LoadAssemblies (376ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1765ms)
+			LoadAssemblies (194ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1143ms)
+			SetupTypeCache (592ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (213ms)
-			SetupLoadedEditorAssemblies (2096ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (847ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (1299ms)
-				ProcessInitializeOnLoadMethodAttributes (616ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 15.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7022 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 7692.
-Memory consumption went from 322.1 MB to 320.2 MB.
-Total: 20.313900 ms (FindLiveObjects: 0.952300 ms CreateObjectMapping: 0.907900 ms MarkObjects: 17.457000 ms  DeleteObjects: 0.994700 ms)
+Unloading 7111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 7768.
+Memory consumption went from 288.9 MB to 286.9 MB.
+Total: 6.841300 ms (FindLiveObjects: 0.932300 ms CreateObjectMapping: 0.737000 ms MarkObjects: 4.407800 ms  DeleteObjects: 0.762500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -802,20 +288,494 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 716.339741 seconds.
-  path: Assets/JamGame/Scenes/Level-1.unity
-  artifactKey: Guid(edb98dcae5fef6743926a16e81d03b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JamGame/Scenes/Level-1.unity using Guid(edb98dcae5fef6743926a16e81d03b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214793e03679c5797528cbb1c61bac23') in 0.031498 seconds 
+  Time since last request: 32.751011 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(15bf86b6f9b448944aa735e52a4ad7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(15bf86b6f9b448944aa735e52a4ad7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808cecf26d0104bff7d1b65be7b563c1') in 0.056385 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.510769 seconds.
-  path: Assets/JamGame/Prefabs/Player/PlayerContainer.prefab
-  artifactKey: Guid(d0ef83c6928af2c4d81b46ee751620ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JamGame/Prefabs/Player/PlayerContainer.prefab using Guid(d0ef83c6928af2c4d81b46ee751620ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '849041b67e726687b69f36440475512a') in 2.499606 seconds 
+  Time since last request: 8.600477 seconds.
+  path: Assets/CPlayerCam.cs
+  artifactKey: Guid(9008fb1982993224eb51f278c45eca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CPlayerCam.cs using Guid(9008fb1982993224eb51f278c45eca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df49b12d6f7bef1f5a04227f503cea62') in 0.002734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.268563 seconds.
+  path: Assets/CPlayerCam.cs
+  artifactKey: Guid(9008fb1982993224eb51f278c45eca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CPlayerCam.cs using Guid(9008fb1982993224eb51f278c45eca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccc347bbaed05c194069f10b14e04e2') in 0.008581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.618432 seconds.
+  path: Assets/CPlayerCam.cs
+  artifactKey: Guid(9008fb1982993224eb51f278c45eca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CPlayerCam.cs using Guid(9008fb1982993224eb51f278c45eca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09a30a5ce4366ba8e3b7de9ccc96774') in 0.003575 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008897 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2141ms)
+		BeginReloadAssembly (302ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1678ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (540ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (799ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (506ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 7773.
+Memory consumption went from 288.9 MB to 287.0 MB.
+Total: 6.571300 ms (FindLiveObjects: 0.848700 ms CreateObjectMapping: 1.002000 ms MarkObjects: 4.083300 ms  DeleteObjects: 0.635700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007272 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.297 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2299ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1932ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (1050ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (658ms)
+				ProcessInitializeOnLoadMethodAttributes (186ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 7776.
+Memory consumption went from 288.9 MB to 287.0 MB.
+Total: 8.036200 ms (FindLiveObjects: 0.839600 ms CreateObjectMapping: 0.993400 ms MarkObjects: 5.359800 ms  DeleteObjects: 0.841800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009017 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.278 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2280ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1900ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (584ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (892ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (595ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 7779.
+Memory consumption went from 288.9 MB to 287.0 MB.
+Total: 7.567700 ms (FindLiveObjects: 0.899000 ms CreateObjectMapping: 1.478400 ms MarkObjects: 4.400200 ms  DeleteObjects: 0.788600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009175 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.199 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2200ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1792ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (887ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (565ms)
+				ProcessInitializeOnLoadMethodAttributes (141ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 7782.
+Memory consumption went from 288.9 MB to 287.0 MB.
+Total: 8.757200 ms (FindLiveObjects: 0.790700 ms CreateObjectMapping: 0.829600 ms MarkObjects: 6.120000 ms  DeleteObjects: 1.014300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008652 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2378ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2006ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (1066ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (171ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 7785.
+Memory consumption went from 289.0 MB to 287.0 MB.
+Total: 8.518800 ms (FindLiveObjects: 0.921500 ms CreateObjectMapping: 1.991600 ms MarkObjects: 4.758800 ms  DeleteObjects: 0.845000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009950 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2894ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2507ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (606ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (155ms)
+			SetupLoadedEditorAssemblies (1404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (963ms)
+				ProcessInitializeOnLoadMethodAttributes (199ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (2.0 MB). Loaded Objects now: 7788.
+Memory consumption went from 289.0 MB to 287.0 MB.
+Total: 7.295100 ms (FindLiveObjects: 0.604900 ms CreateObjectMapping: 0.603400 ms MarkObjects: 4.460500 ms  DeleteObjects: 1.624700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009541 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2738ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2317ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (684ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (1190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (759ms)
+				ProcessInitializeOnLoadMethodAttributes (190ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 7791.
+Memory consumption went from 289.0 MB to 287.0 MB.
+Total: 7.160300 ms (FindLiveObjects: 0.607400 ms CreateObjectMapping: 0.595600 ms MarkObjects: 5.282600 ms  DeleteObjects: 0.673000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009047 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\TwitchJam2022KrampusGame\KrampusGameJam2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2427ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2050ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (556ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (1086ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (685ms)
+				ProcessInitializeOnLoadMethodAttributes (166ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (2.0 MB). Loaded Objects now: 7794.
+Memory consumption went from 289.0 MB to 287.0 MB.
+Total: 7.631400 ms (FindLiveObjects: 0.710500 ms CreateObjectMapping: 0.748300 ms MarkObjects: 5.336800 ms  DeleteObjects: 0.833500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

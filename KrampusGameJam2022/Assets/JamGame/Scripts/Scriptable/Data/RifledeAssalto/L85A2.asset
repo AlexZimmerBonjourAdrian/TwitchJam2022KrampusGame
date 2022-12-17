@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27d8b2ca7966ef4c9b361fcf9b3f2ab, type: 3}
+  m_Name: L85A2
+  m_EditorClassIdentifier: 
+  weapon_name: L85A2
+  weapon_description: Uno de los peores rifles de asalto del mundo, pero aun asi
+    es barato, por lo menos no esta hecha de zamak
+  equip_speed: 1
+  unequip_speed: 1
+  reload_speed: 1.3
+  accuarcy: 0.7
+  type_Weapon: RifleDeAssalto
+  recoil: 1.2
+  offset: 0.5
+  multidisparo: 0
+  exparsion: 1
+  ammo_in_mag: 30
+  extra_ammo: 150
+  mag_size: 120
+  damage: 20
+  fire_rate: 1.1

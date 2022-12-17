@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\ObjectRotationGizmo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\PickUpComponents.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Decor Paint\DecorPaintSlopeSettingsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Point And Click\PointAndClickObjectPlacement.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\cameraAxisComponentsInfo.cs" />
@@ -80,12 +81,14 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\simpleWeaponSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\Operations\EntityNameMatchOperationFactory.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushElementView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerBullet.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Head Track\headTrackTarget.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\grapplingHookTarget.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\genericRagdollBuilder.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Demo\damageCharacterOnCollision.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\GKCCharacterController.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Captures\remoteEventOnCameraCaptureSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CPlayerGeneric.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Condition System\GKCMeleeConditionSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Demo\solarSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\AIAbilitiesSystemBrain.cs" />
@@ -124,6 +127,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\PathObjectPlacementSettings.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Stroke\DecorPaintStroke.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Foot Step\footStep.cs" />
+    <Compile Include="Assets\JamGame\Scripts\PickUp\CControllerPickup.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Projectors\PointsOnColliderProjector.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\particleTriggerDetection.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\Radio\radioSystem.cs" />
@@ -132,6 +136,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Skills System\playerSkillsUISystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\staminaSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Action System\characterActionSystemChecker.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerWeapon.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\KeyboardButtonStates.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\MouseCursor.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Input\inputPanelUISystem.cs" />
@@ -148,6 +153,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Pivot Points\ObjectPivotPointsRenderSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\grabObjectsStrengthPickup.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\ObjectPlacementExtensionPlaneRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CXM8.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\flashlight.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Snapping\Grid\ObjectColliderSnapSurfaceGridSettings.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\MouseButtonStates.cs" />
@@ -161,15 +167,18 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleSoundSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponRangeAttacksSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Coordinate System\CoordinateSystemRenderer.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\Actions\MafiosoHitAction.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\Tile Connection Configurations\ObjectPlacementPathTileConnectionConfigurationDatabase.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\CoordinateSystemRenderSettings.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Snapping\Snap Surface\ObjectColliderSnapSurfaceGrid.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Snapping\ObjectSnapSettings.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\EditorGUI\EditorGUILabelWidth.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\SplineWalker.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CDash.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\statsSettingsTemplate.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponObjectInfo.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\playerComponentsManager.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CMac10.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\AIHidePositionsManager.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ToolMessages.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\vehicleController.cs" />
@@ -197,6 +206,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\pickUpManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\pixelCameraEffect.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathHeightAdjustmentSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CCharacterKinematics.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Sphere.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Toolbars\Toolbar.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\AIFireWeaponsSystemBrain.cs" />
@@ -208,6 +218,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponTransformData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveMissionsInfo.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\SphereTreeNodeRayHit.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Sounds-Music\CAudioManager.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\TransformGizmoPivotPoint.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Eraser\Object2DMassEraseSettingsView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Demo\openStructure.cs" />
@@ -218,6 +229,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Point And Click\pointAndClickElement.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\Objects Stats\objectStatsSystemOnMeleeWeapons.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\fullArmorClothTemplate.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CIdleState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\swimSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\weaponLaser.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\SphereColliderExtensions.cs" />
@@ -234,6 +246,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\MeshColliderExtensions.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionMode.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\attachmentInfo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Mesh\CSlicesMetadata.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedQuad3D\XZOrientedQuad3DPoints.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\BoxColliderExtensions.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceWeaponListBySaveSlotInfo.cs" />
@@ -249,19 +262,23 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\hologramDoor.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\playerOptionsEditorSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeAttackSurfaceInfo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CArmed.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\CustomAxisMouseRotationSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeCombatAttackStartState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\templateAbilitySystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\vehicleLaser.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\craftedObjectPlacedHelper.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Mesh\CSlicer.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\meleeShieldOnInventory.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\Box.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Brush\DecorPaintObjectPlacementBrush.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Ladder System\playerLadderSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabObjectParent.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CGenericBullet.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\slideZoneSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Input\playerInputManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Documentation\Integrations\UMA\UMA\UMAIgnoreTransformAndChilds.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\Actions\MafiosoDeathAction.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Prefabs\PrefabToCategoryDropSettingsView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\Radio\songsManager.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Scale\ObjectUniformScaleRandomizationSettings.cs" />
@@ -270,9 +287,12 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Data\PathWithTileConnectionsObjectPlacementDataCalculator.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\grapplingHookSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\localizationFileLoader.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\AI\Goap\GoapAgent.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleActionButton.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CTaurus.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Tags\Prefab Tag Database\PrefabTagDatabaseViewData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\climbRopeSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Controller\CControllerWave.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Axis\TransformAxis.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Rotation\ObjectRotationRandomizationSettingsView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\durabilityInfo.cs" />
@@ -284,6 +304,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Entity Filters\PrefabTagFilter.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPathManualHeightAdjuster.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockManualHeightAdjustmentSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CAK74M.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Masks\ObjectMaskView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\movableDoor.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Snapping\Grid\XZGridDimensionType.cs" />
@@ -294,6 +315,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\Istat.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\externalControllerBehaviorManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\manualDetonationMineSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CEnemySystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\rotatoryGear.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\playerScreenObjectivesSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Actions Views\Object Selection\ObjectSelectionActionsView.cs" />
@@ -308,6 +330,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\PrefabManagementWindow.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedCircle3D.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\Objects Stats\objectStatsInfoTemplateData.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Controller\CGameEvents.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Configs\Octave3DConfigSaveLoadSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\bowSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\playerAbilitiesUISystem.cs" />
@@ -330,11 +353,13 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\Operations\CaseSensitiveEntityNameMatchOperation.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Placement\Block\ObjectPlacementBlockRenderer.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Rotation\ObjectKeyboardRotationSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CClimp.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\SceneRenderer.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\grapplingHookEffect.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\doorSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Menu\ingameMenuPanel.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryMenuIconElement.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CHitState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Powers\powersListManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryWeightManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\rotatingPlatform.cs" />
@@ -362,6 +387,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\solidCameraEffect.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\addForceToObjectSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\destroyGameObject.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CPatrollingState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Health\healthElementInfo.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\ObjectIntersectionSettingsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Categories\ActivePrefabCategoryViewData.cs" />
@@ -372,7 +398,9 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Puzzles\placeObjectSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\Slice System\runtimeShatterRecursive.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Map\mapObjectInformation.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\VisualScripting\CAdvanceweaponRecoil.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Rotation\ObjectRotationRandomization.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CSlide.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\grapplingHookTargetsSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Data\PrefabFoldersToCategoryDropData.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ActiveObjectPlacementPathTileConnectionConfigurationView.cs" />
@@ -381,6 +409,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterCustomizationBlendshapesHelper.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockPaddingSettingsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Mirrors\InteractableMirrorRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Camera\CMoveCamera.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\ToolResources.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockPaddingSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Input\editControlPosition.cs" />
@@ -404,6 +433,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ObjectPlacementPathTileConnectionConfigurationDatabaseViewData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\AIAroundManager.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathPaddingSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CEnemy.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\processStationSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Map\mapTileBuilder.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Eraser\Object3DMassEraseSettingsView.cs" />
@@ -421,6 +451,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector GUIs\InspectorGUIIdentifier.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Configs\PrefabConfigXMLInfo.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\sphereController.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\VisualScripting\CCAdvancedCamRecoil.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\zipline.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\savePlayerBlendshapesInfo.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\skidsManager.cs" />
@@ -466,8 +497,11 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Grid\XZVisibleGridCellRange.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Input\inputActionManager.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Colliders\Octave3DMeshCollider.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CBerreta.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Level Manager\travelStationSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\simpleWaypointSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Scriptable\DataPickUp.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\VisualScripting\CCamerasShake.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponAnimatorSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\NamedEntityCollection.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventorySlotOptionsButtons.cs" />
@@ -477,6 +511,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\AINavMesh.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionTypeTexturePaths.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\AI\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\MafiosoValueComponent.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionBoxEdgeRenderMode.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Selection\IObjectSelectionRenderer.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Spatial Trees\Octree\OctreeNode.cs" />
@@ -491,6 +526,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\Prefab Tags\PrefabTagFactory.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\languageElementChecker.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Octave3DScene.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CCharacterBehaviour.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\turretController.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\CameraDataSnapshot.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Operations\PrefabsToCategoryDropOperation.cs" />
@@ -500,16 +536,19 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathBorderSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\laserDotOnScreenSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterCustomizationManager.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\AI\FSM\FSMState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\getInventoryObjectSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\meleeShieldInventoryPrefabCreationSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\selectObjectManagerEditor.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Spatial Trees\Octree\PointCloudOctree.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\VisualScripting\CMotion.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Point And Click\PointAndClickObjectPlacementSettingsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Coordinate System\CoordinateSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\ProbabilityTable.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\dialogManager.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\Meshes\ProceduralMeshGeneration.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Gizmos API\GizmosColor.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\VisualScripting\CSway.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Map\mapCreator.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector.cs" />
@@ -535,9 +574,11 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\meleeAIBehavior.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Entity Filters\EntityFilterProperty.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CTimeManager.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Eraser\ObjectEraserSettingsView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponBuilder.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\flyingTurretSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\PickUp\CGenericItem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\abilitiesAIBehavior.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\pickupType.cs" />
@@ -547,6 +588,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Condition System\GKCCurrencyConditionSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\addPatrolSystemToAI.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathHeightAdjustmentSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\VisualScripting\CViewBobbing.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\PrefabsToCategoryDropEventHandler.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\onEnableCheckSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\OrientedBox.cs" />
@@ -560,6 +602,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Mirroring\MirroredRotation.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Prefabs\PrefabActivationSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\inventoryLocalizationManagerEditor.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\Agents\Mafioso.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Menu\homeMenu.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Range.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\AIWayPointPatrol.cs" />
@@ -571,10 +614,12 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\featuresManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\hoverBoardController.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CBeginState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Event System\eventTriggerSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\headBob.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternToken.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Input\editInputPanelInfo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CMCMilliam.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponRangeAttacksManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Health\destroyableObject.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ObjectPlacementPathMessages.cs" />
@@ -606,6 +651,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\Operations\IEntityNameMatchOperation.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Animator IK\IKSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Mobile\touchButtonListener.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CCharacter.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\screenObjectivesSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\OrientedBoxRayHit.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\selectObjectManager.cs" />
@@ -613,6 +659,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Mirrors\InteractableMirrorSettingsView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryCaptureManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Decal\decalTypeInformation.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Enemy\CAutoSpawnWeaponEnemy.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\EditorGUI\EditorGUILayoutEx.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Entity Filters\PrefabFilterView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Input\showPlayerInputValues.cs" />
@@ -634,6 +681,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\Tile Connection Configurations\ObjectPlacementPathTileConnectionConfiguration.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\MessageType.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\ObjectSelectionObject2ObjectSnapSession.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Enemy\CMafioso.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\vehicleWeaponSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Selection\ObjectSelectionBoxRenderModeSettingsView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Puzzles\pressObjectsInOrderSystem.cs" />
@@ -653,6 +701,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushDatabaseViewData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Menu\GKCLoadingScreenSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\stairAdherenceSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\MagSizeComponents.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\materialExtractionStationUISystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Panel Info System\sliderInfoSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\airAttackToLandSystem.cs" />
@@ -690,6 +739,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Demo\moveObject.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Serializable Collections\SerializableHashSet.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\Objects Stats\objectStatsInfoTemplate.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerRayCast.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\fullArmorClothTemplateData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Health\damageScreenSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Layers\ObjectLayerDatabase.cs" />
@@ -722,6 +772,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedEllipse3D.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Entity Filters\EntityNameFilter.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleLensFlareSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CShootPlayerState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Foot Step\noiseMeshSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefab Categories\PrefabCategoryDatabase.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPlacementMissChance.cs" />
@@ -729,6 +780,8 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\audioSourceInfo.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\MessageListenerDatabase.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Masks\ObjectLayerObjectMaskViewData.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Enemy\CMafiosoTester.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CPlayerLife.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ObjectPlacementPathTileConnectionConfigurationDatabaseView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Colliders\Octave3DBoxCollider.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\emptyVehicleController.cs" />
@@ -745,13 +798,16 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\templateStatTypeComponent.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\dummyVehicleController.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionRotationCalculator.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CUnarmed.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\showGameInfoHud.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\vehicleFuelPickup.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Ellipse2D.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\AnimationComponents.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\initialPopUpWindow.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\closetSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushDatabaseView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\completeDialogInfo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\ExtraLogic\FindOfView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Health\damageInfo.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\freeClimbSystemIK.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\DragAndDropEventHandler.cs" />
@@ -763,6 +819,8 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedQuad3D\XZOrientedQuad3DCornerPoint.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Input\JoystickData.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathPaddingSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\AI\Goap\GoapAction.cs" />
+    <Compile Include="Assets\JamGame\Scripts\ExtrLibrary.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\usingDevicesSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\animatorTriggerEvent.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\climbRopeTriggerSystem.cs" />
@@ -771,6 +829,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\languageLocalizationManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Event System\eventObjectFoundOnCaptureSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\craftingBlueprintInfoTemplateData.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Scriptable\DataOption.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Eraser\ObjectEraserSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Override System\objectToOverrideSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Input\touchScreenPinchSystem.cs" />
@@ -825,8 +884,10 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionSettingsChangeValidation.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\securityCamera.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\savePlayerInventoryInfo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Bullet\CBullet.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedQuad3D\XZOrientedQuad3DPoint.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Powers\hitCombat.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\RunSpeedComponents.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\interactionObjectsLocalizationManager.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Mirrors\MirroredEntityRenderer.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\remotePlayerNavmeshOverrideSystem.cs" />
@@ -851,6 +912,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\playerSphereModeSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\zeroGravityRoomSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Checkpoint\checkpointElement.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CM203.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\arrowManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\pauseAnimationSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\vehicleGravityControl.cs" />
@@ -859,6 +921,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\armorClothStatsInfo.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\MessageListenerRegistration.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Snapping\ObjectSnappingLookAndFeelSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\PricipalMechanics\CGunSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Demo\deviceToActive.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\dialogContentTemplate.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\abilityInfo.cs" />
@@ -872,8 +935,11 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\projectilesOnCharacterBodyManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeCombatThrowReturnWeaponSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleAnimationSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerPickUp.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Character Builder\bodyMountPointsSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\carryPhysicallyObjectFromInventory.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CTMP.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\ExtraLogic\FindOfViewEditor.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\States\setCharacterAffectedState.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxFacePoints.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Segment3D.cs" />
@@ -883,6 +949,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Decor Paint\BrushDecorPaintModeObjectPlacementSettingsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Shapes\XZOrientedEllipseShapeRenderSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Menu\setCanvasParentSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Controller\CDebugWeapon.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\audioClipBip.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\drainStatSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceMeleeWeaponListBySaveSlotInfo.cs" />
@@ -892,6 +959,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\TransformSnapshot.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\pointAndClickLocalizationManagerEditor.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\walkOnBalanceTriggerSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\PlayerComponents.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathAutomaticRandomHeightAdjustmentSettingsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\Meshes\ProceduralMeshFactory.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\BlockObjectPlacementSettingsView.cs" />
@@ -958,6 +1026,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\freeFallCharacterActivator.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Space\TransformSpace.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\laserDevice.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CBullup.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\MaterialPool.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Character Builder\buildPlayer.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponListManager.cs" />
@@ -970,8 +1039,11 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Hide System\hideFromEnemiesSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\weaponAttachmentPickup.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\setCustomCharacterStateTriggerSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\Actions\MafiosoAttackAction.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\IKWeaponInfo.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ObjectTransformGizmoMessages.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CMP5K.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CM4Shootgun.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\perfectDodgeSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Shapes\RectangleShapeRenderSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\customCameraEffect.cs" />
@@ -991,14 +1063,18 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Demo\simpleObject.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\outlineObjectSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\SpecializedNamedEntityCollections.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CPlayerMovementAdvance.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\Mesh Tree\MeshSphereTreeTriangle.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Data\PrefabFolderDropData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\playSoundOnTriggerEnter.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Menu\CRespawn.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\laserAttachment.cs" />
+    <Compile Include="Assets\JamGame\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Map\glossaryElement.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\gravityObjectManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\inventoryExtraSpacePickup.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathManualConstructionSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Singleton\CLevelManager.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\CameraType.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Input\mouseCursorController.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\craftingSocket.cs" />
@@ -1018,6 +1094,8 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\lockedCameraSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Rotation\AxisAlignmentSettingsView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\cameraEffect.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\Agents\Enemy.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\AditionalScripts\CTargetRotation.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\MouseButton.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Level Manager\travelStationUISystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\ObjectSelection.cs" />
@@ -1027,12 +1105,14 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ObjectPlacementBlockMessages.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\gravitySystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathBorderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\openInitialPopUpWindow.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Health\playerDamageOnScreenInfoSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\dashSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\stealObjectFromCharacterSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponTransformInfoSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Box Stack\ObjectPlacementBoxStack.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\MafiosoValue.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockSettings.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\ObjectMoveGizmo.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\changeObjectColors.cs" />
@@ -1042,12 +1122,14 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Snapping\Grid\ObjectColliderSnapSurfaceGridSettingsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Ray3D.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceWeaponAttachmentListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\LifeComponets.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\Objects Stats\objectStatsInfo.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\XmlTextWriterExtensions.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionBoxCornerEdgesRenderModeSettings.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Data\ObjectPlacementData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Map\setMapOrientationSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Override System\overrideController.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\GameData\MovableComponents.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Block\ObjectPlacementBlockSubdivisionApplyOperation.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionType.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionScaleCalculator.cs" />
@@ -1061,8 +1143,10 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\Texture2DExtensions.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ObjectPlacementMessages.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\ObjectGrabSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Scene\Optimization\MeshCombineSettings.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Shapes\3D\ObjectInteraction3DShape.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Enemy\CTipeWeapon.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Selection\ObjectSelectionPaintModeSettingsView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Quick Access System\inventoryQuickAccessSlotsSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\hiddenMeleeSurface.cs" />
@@ -1094,6 +1178,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\Slice System\sliceSystemUtils.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Prefab Tags\PrefabTagActions.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternTokenType.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CM4A1.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\consoleLogOnScreenSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Tags\PrefabTagAssociationsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\Octave3DEditorWindow.cs" />
@@ -1108,6 +1193,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ObjectPlacementPathHeightPatternViewData.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Layers\ObjectLayerDatabaseView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Pivot.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Mesh\CSliceable.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Mirrors\Mirror.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\objectiveLogSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathManualConstructionRenderSettings.cs" />
@@ -1116,11 +1202,13 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\SceneViewEventHandler.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Mirrors\InteractableMirrorSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\craftingBlueprintInfo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Scriptable\DataWeapon.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\objectToFollowOnThrowMeleeWeapon.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\EventExtensions.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Colliders\Octave3DColliderRayHit.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\Shortcut Combos\ShortcutCombo.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\playerShieldSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\PricipalMechanics\CGun.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\meleeWeaponPickup.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\closeCombatSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\craftingUISystem.cs" />
@@ -1150,6 +1238,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\setObjectParentSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Powers\New Powers Behaviors\joinObjectsPower.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Octave3DWorldBuilder.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerPlayer.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\generalStatComponent.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Mirrors\InteractableMirror.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\CoordinateSystemAxisRenderSettings.cs" />
@@ -1164,6 +1253,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Masks\ObjectCollectionMaskViewData.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\ProjectAssetDatabase.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\ammoInventoryPrefabCreationSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Menu\CPauseMenu.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxFaceCornerPoint.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\dragObjectSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Scale\ObjectScaleRandomizationSettingsView.cs" />
@@ -1187,6 +1277,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\spawnObject.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\armorClothOnInventory.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\addGrenadeToThrowAwayFromCharacter.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Mesh\CSword.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\GameObjectExtensions.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\ObjectSelectionSceneViewEventHandler.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Override System\overrideCameraController.cs" />
@@ -1217,6 +1308,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Groups\ObjectGroupView.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\dialogContentSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternDatabase.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\AditionalScripts\CPositionFollower.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\weaponAttachmentSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathManualHeightAdjustmentSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Elements On Scene\elementsOnSceneSystem.cs" />
@@ -1233,10 +1325,12 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Demo\setText.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionTypes.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryBankManager.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CDeathState.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\ObjectPlacementLookAndFeelSettingsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\Operations\HoveredObjectEraseOperation.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Data\PrefabsToCategoryDropOperationData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vendor System\vendorCategorySlotPanelInfo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\PickUp\CWeaponPickUp.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\setMissionSubObjectiveStateRemotelySystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\shieldPickup.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\Meshes\ProceduralMeshResources.cs" />
@@ -1271,6 +1365,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\Object2ObjectBoxSnapData.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathAutomaticRandomHeightAdjustmentSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\weaponPickup.cs" />
+    <Compile Include="Assets\JamGame\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPath.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Move\ObjectMouseMoveAlongDirectionSettings.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\AxisKeyboardRotationSettingsView.cs" />
@@ -1302,6 +1397,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\weaponAttachmentOnInventory.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\CustomAxisKeyboardRotationSettings.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Configs\Octave3DConfigSaveLoadSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\Gamplay\PricipalMechanics\CRecoil.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Serializable Collections\SpecializedSerializableHashSets.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\Scene Render Path\ObjectLayersSceneRenderPath.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\throwGrenadeSystem.cs" />
@@ -1311,14 +1407,17 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector GUIs\ObjectPlacementInspectorGUI.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\GKC_Utils.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Powers\powersListElement.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\AI\Goap\GoapPlanner.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\objectiveStationSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Coordinate System\RenderableCoordinateSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Raycasting\SpriteRayHit.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CPlayer.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Snapping\ObjectVertexSnapSessionRenderSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\jetpackSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\playerGravitySystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\currencySystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\skillPointPickup.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Singleton\CGameManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\Turret\AITurret.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Objects\ObjectActions.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\jetpackFuelPickup.cs" />
@@ -1328,6 +1427,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\laserReceiver.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Undo\UndoEx.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Head Track\pointToLook.cs" />
+    <Compile Include="Assets\CPlayerLook.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Singleton\Singleton.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\followObjectPositionSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\hackTerminal.cs" />
@@ -1359,6 +1459,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\PrefabsToDecorPaintBrushEventHandler.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Block\BlockObjectPlacement.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\persuasionSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Menu\CSwitch.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\Message.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\objectToAttractWithGrapplingHook.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Hide System\hideCharacterFixedPlaceSystemPlayerManagement.cs" />
@@ -1373,6 +1474,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Health\applyDissolveOnArea.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\AxisRotationRandomizationMode.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterCustomizationInfo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Salvar-Data\CGameState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\brainwashAIState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\meleeWeaponInventoryPrefabCreationSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\AIViewTriggerSystem.cs" />
@@ -1403,6 +1505,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryPrefabCreationSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Scriptable Objects\inventoryListManagerData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\shieldOnInventory.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Effects\CShell.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\GUIMessages.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\mainRiderSystem.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementSettingsView.cs" />
@@ -1413,8 +1516,9 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\taskCounterSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Action System\customActionSystemTrigger.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\ObjectEraserSceneViewEventHandler.cs" />
-    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponAttackListInfoSocket.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CCalico.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\ObjectHierarchySnap.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponAttackListInfoSocket.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Data\BlockObjectPlacementDataCalculator.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Meshes\Octave3DMesh.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionPaintModeSettings.cs" />
@@ -1433,6 +1537,7 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockRenderSettingsView.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Shapes\3D\XZOrientedEllipseObjectInteractionShape.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Player\playerStatesManager.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Effects\CMuzzleFlash.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionYAxisRotation.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Scriptable Objects\objectTransformData.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Health\health.cs" />
@@ -1466,6 +1571,7 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\AI\Close Combat\AICloseCombatSystemBrain.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Toolbars\ObjectSelectionActionToolbar.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\AI\WaypointCircuit.cs" />
+    <Compile Include="Assets\JamGame\Scripts\FPS.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\Textures\TextureCache.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Raycasting\TerrainRayHit.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\IKDrivingSystem.cs" />
@@ -1478,6 +1584,9 @@
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Objects\ObjectQueries.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\playerTeleportSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\slowDownAllAIOnSceneSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\AI\FSM\FSM.cs" />
+    <Compile Include="Assets\JamGame\Scripts\PickUp\CAmmo.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerEnemy.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\skillsLocalizationManager.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\spearProjectile.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\localizationToolEditor.cs" />
@@ -1488,17 +1597,22 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\abilitySlotElement.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceInventoryListBySaveSlotInfo.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Pivot Points\SquarePivotPointRenderer.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CFearState.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\simpleSniperSightSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\vehicleBuilder.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\MathfEx.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Pivot Points\ProjectedBoxFacePivotPointsRenderer.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\TransformMatrix.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\followObjectPositionUpdateSystem.cs" />
-    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Shapes\EllipseShapeRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Camera\CPlayerCam.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\ColorExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Shapes\EllipseShapeRenderSettings.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\saveGameSlot.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleEventSystem.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Weapon\CPPK.cs" />
     <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\CapsuleColliderExtensions.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CMovePlayerState.cs" />
+    <Compile Include="Assets\JamGame\Scripts\AI\AI\Goap\IGoap.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Save System\playerPrefsCustomInfo.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Event System\remoteEventSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\UIElementsLocalizationManagerEditor.cs" />
@@ -1519,24 +1633,9 @@
     <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\Objects Stats\objectsStatsSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Crafting System\materialExtractionStationSystem.cs" />
     <Compile Include="Assets\Game Kit Controller\Scripts\Devices\rechargerStation.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CTimeManager.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CCharacterKinematics.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CPlayerMovementAdvance.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CPlayerLife.cs" />
-    <Compile Include="Assets\JamGame\Script\Singleton\CGameManager.cs" />
-    <Compile Include="Assets\JamGame\Script\Singleton\CLevelManager.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CCharacter.cs" />
-    <Compile Include="Assets\JamGame\Script\Camera\CMoveCamera.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\JamGame\Script\Menu\CRespawn.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CSlide.cs" />
-    <Compile Include="Assets\JamGame\Script\Menu\CPauseMenu.cs" />
-    <Compile Include="Assets\JamGame\Script\Menu\CSwitch.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CPlayer.cs" />
-    <Compile Include="Assets\JamGame\Script\Camera\CPlayerCam.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CClimp.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CCharacterBehaviour.cs" />
-    <Compile Include="Assets\JamGame\Script\Player\CDash.cs" />
+    <Compile Include="Assets\MovementCamera.cs" />
+    <Compile Include="Assets\CPlayerCam.cs" />
+    <Compile Include="Assets\CPlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VNB - Xmas Mini-Set\ReadMe.txt" />

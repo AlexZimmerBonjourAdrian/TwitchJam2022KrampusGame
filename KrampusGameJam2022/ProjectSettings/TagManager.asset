@@ -13,6 +13,10 @@ TagManager:
   - inventory
   - vehicle
   - SurfaceToClimb
+  - Environment
+  - leadge
+  - IsGround
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -28,8 +32,8 @@ TagManager:
   - turrets
   - player
   - radar
-  - 
-  - 
+  - IsGround
+  - WhatsIsGround
   - 
   - Scanner
   - vehicle

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1501463655341575270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.989
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.81400025
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.442
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+      propertyPath: m_Name
+      value: PickUp-AK74 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+--- !u!1 &1735905576447537463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 70f820d275d56744ea152cbe353c5562, type: 3}
+  m_PrefabInstance: {fileID: 1501463655341575270}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7299814902650882624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735905576447537463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae82c4f24f24b2d4da55c87a65296083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ManagerWeapon: {fileID: 0}
+  _weapon: {fileID: 820195119963778787, guid: 9fa2499b071ab934cbd986348d5e3700, type: 3}
