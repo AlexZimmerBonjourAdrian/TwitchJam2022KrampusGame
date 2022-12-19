@@ -54,7 +54,7 @@ public class CManagerEnemy : MonoBehaviour
     public void Spawn(Vector3 pos)
     {
         GameObject obj = (GameObject)Instantiate(_EnemyAsset, pos, Quaternion.identity);
-        CMafioso newEnemy = obj.GetComponent<CMafioso>();
-        _EnemyList.Add(newEnemy);
+        //CMafioso newEnemy = obj.GetComponent<CMafioso>();
+        //_EnemyList.Add(newEnemy);
     }
 }

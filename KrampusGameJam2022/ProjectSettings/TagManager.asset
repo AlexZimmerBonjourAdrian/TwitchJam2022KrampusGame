@@ -4,19 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - box
-  - sphere
-  - moving
-  - enemy
-  - friend
-  - device
-  - inventory
-  - vehicle
-  - SurfaceToClimb
-  - Environment
-  - leadge
-  - IsGround
+  - Shootable
+  - Enemy
   - Floor
+  - TimeManager
+  - box
+  - Consumible
   layers:
   - Default
   - TransparentFX
@@ -25,32 +18,35 @@ TagManager:
   - Water
   - UI
   - 
+  - Grouble
+  - Lighting
+  - Ground
+  - Postprocessing
   - 
   - 
-  - gravityObjects
-  - Armor Surface
-  - turrets
-  - player
-  - radar
-  - IsGround
-  - WhatsIsGround
   - 
-  - Scanner
-  - vehicle
-  - inventory
-  - npc
-  - weapons
-  - device
-  - Terrain
-  - Point&Click
-  - Dynamic Split Screen
-  - Transparent Mesh
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
   - 
   - 
   m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

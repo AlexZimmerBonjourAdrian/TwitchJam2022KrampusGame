@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game Kit Controller/Scenes/Home Menu/Home Menu.unity
-    guid: 4da31b3d45c47e64a9e73fce90308fbf
+    path: Assets/JamGame/Scenes/MenuTest.unity
+    guid: 6fa1be709a912eb46819fa4596f8f662
   - enabled: 1
-    path: Assets/Game Kit Controller/Scenes/Action System.unity
-    guid: abff85a0309faa946a6c71e3c23f0395
-  - enabled: 1
-    path: Assets/Game Kit Controller/Scenes/Home Menu/Loading Screen Scene.unity
-    guid: eb0cb8ea40ccca04fbb0a9714fe33f7d
+    path: Assets/JamGame/Scenes/Level-1.unity
+    guid: edb98dcae5fef6743926a16e81d03b6a
   m_configObjects: {}

@@ -29,7 +29,7 @@ public class CArmed : MonoBehaviour
     [SerializeField] protected float snappiness;
     [SerializeField] protected float returnSpeed;
 
-    [SerializeField] protected CRecoil recoil_Script;
+    //[SerializeField] protected CRecoil recoil_Script;
 
     [Header("Bloom")]
     [SerializeField] public float offset = 1.0f;
